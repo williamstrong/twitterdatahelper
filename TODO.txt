@@ -1,0 +1,21 @@
+TwitterAPI.py
+    Done: Rename module and AllTweets class to something more descriptive.
+    Done: Rename get_tweets()
+    Line 81: Consider changing the condition of the while loop
+    Line 90: Add a break for the loop when two of the returned statuses are the same
+    Line 30: Make RequestAndStore class functional
+    Line 71: Make RequestAndStoreSubject functional
+
+
+Create testing
+
+Database.py
+    Return DB object on instantiation/function calls so that higher level modules can interact with DB
+    Create functions for reading data from the DB
+    Clean up current DB and migrate/backup data to MongoDB Atlas
+    Create helper function to manage Collections
+
+Restructure files
+Set up git
+Make Vagrant setup automatic for new installs
+
