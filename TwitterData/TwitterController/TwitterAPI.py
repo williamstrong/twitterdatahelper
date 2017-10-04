@@ -1,13 +1,27 @@
+import json
+from datetime import datetime
+
 import twitter
-from Database import DB
+
+from .TwitterError import NoSubClass
+from ..DatabaseController.Write import WriteToDB
 
 
 class Tweets:
     def __init__(self):
-        self.CONSUMER_KEY = '***REMOVED***'
-        self.CONSUMER_SECRET = '***REMOVED***'
-        self.OAUTH_TOKEN = '***REMOVED***'
-        self.OAUTH_TOKEN_SECRET = '***REMOVED***'
+        file = "twitter_access.json"
+
+        auth_keys = json.load(open(file, 'r'))
+        self.CONSUMER_KEY = auth_keys["CONSUMER_KEY"]
+        self.CONSUMER_SECRET = auth_keys["CONSUMER_SECRET"]
+        self.OAUTH_TOKEN = auth_keys["OAUTH_TOKEN"]
+        self.OAUTH_TOKEN_SECRET = auth_keys["OAUTH_TOKEN_SECRET"]
+
+        # except FileNotFoundError:
+        #     self.CONSUMER_KEY = ''
+        #     self.CONSUMER_SECRET = ''
+        #     self.OAUTH_TOKEN = ''
+        #     self.OAUTH_TOKEN_SECRET = ''
 
         self.api = twitter.Api(
             self.CONSUMER_KEY,
@@ -15,9 +29,6 @@ class Tweets:
             self.OAUTH_TOKEN,
             self.OAUTH_TOKEN_SECRET,
             sleep_on_rate_limit=True)
-
-        # Database initialization
-        self.db = DB()
 
         # Statistics
         self.count = 0
@@ -28,16 +39,17 @@ class Tweets:
 
 
 class RequestAndStore(Tweets):
-    def __init__(self, name):
+    def __init__(self):
         super().__init__()
-        self.name = name
+        self.collection = "dump"
+        self.db = WriteToDB()
 
     def request_tweets_from_api(self):
         #     Test last_id; if exist start from last_id else start from beginning
         last_id = 0
         tweets = self._new_tweets()
         self.add_tweet_list_to_db(tweets)
-        while True:
+        while len(tweets) > 1:
             try:
                 last_id = tweets[-1].id
             except IndexError:
@@ -51,8 +63,7 @@ class RequestAndStore(Tweets):
 
     def add_tweet_list_to_db(self, tweet_list):
         for status in tweet_list:
-            self.db.add_data(status.AsDict())
-        print("Added to DB")
+            self.db.add_data(self.collection, status.AsDict())
         self._counter(tweet_list)
         # Potentially another way to do this
         # self.db.add_data([status.AsDict for status in tweet_list])
@@ -62,49 +73,21 @@ class RequestAndStore(Tweets):
         print(self.count)
 
     def _new_tweets(self):
-        pass
+        raise NoSubClass(type(self).__name__)
 
     def _tweets_since_last_id(self, last_id):
-        pass
+        raise NoSubClass(type(self).__name__)
 
 
-class RequestAndStoreTimelineStatuses(RequestAndStore):
+class TimelineStatuses(RequestAndStore):
     def __init__(self, name):
         super().__init__()
         self.name = name
-
-    def request_tweets_from_api(self):
-        #     Test last_id; if exist start from last_id else start from beginning
-        last_id = 0
-        tweets = self._new_tweets()
-        self.add_tweet_list_to_db(tweets)
-        while True:
-            try:
-                last_id = tweets[-1].id
-            except IndexError:
-                pass
-            try:
-                tweets = self._tweets_since_last_id(last_id)
-            except twitter.error.TwitterError as err:
-                print(err)
-                return
-            self.add_tweet_list_to_db(tweets)
-
-    def add_tweet_list_to_db(self, tweet_list):
-        for status in tweet_list:
-            self.db.add_data(status.AsDict())
-        print("Added to DB")
-        self._counter(tweet_list)
-        # Potentially another way to do this
-        # self.db.add_data([status.AsDict for status in tweet_list])
-
-    def _counter(self, list):
-        self.count += len(list)
-        print(self.count)
+        self.collection = name + str(datetime.now())
 
     def _new_tweets(self):
         tweet_list = self.api.GetUserTimeline(
-            screen_name=self.user,
+            screen_name=self.name,
             count=200,
             exclude_replies=True,
             trim_user=True)
@@ -114,7 +97,7 @@ class RequestAndStoreTimelineStatuses(RequestAndStore):
     def _tweets_since_last_id(self, last_id):
         #     print("Made it to last id")
         tweets = self.api.GetUserTimeline(
-            screen_name=self.user,
+            screen_name=self.name,
             count=200,
             max_id=last_id,
             exclude_replies=True,
@@ -123,25 +106,27 @@ class RequestAndStoreTimelineStatuses(RequestAndStore):
         return tweets
 
 
-class RequestAndStoreSubject(RequestAndStore):
+class Subject(RequestAndStore):
     def __init__(self, subject, date):
         super().__init__()
         self.subject = subject
         self.since_date = date
+        self.collection = subject + date
 
-    def request_tweets_from_api(self):
-        GetSearch(self,
-                  term=self.subject,
-                  since_id=None,
-                  max_id=None,
-                  until=None,
-                  since=self.since_date,
-                  count=200,
-                  lang=None,
-                  locale=None,
-                  result_type="mixed",
-                  include_entities=None)
+    def _new_tweets(self):
+        return self.api.GetSearch(
+            term=self.subject,
+            since=self.since_date,
+            count=200)
+
+    def _tweets_since_last_id(self, last_id):
+        return self.api.GetSearch(
+            term=self.subject,
+            since=self.since_date,
+            count=200)
+
+
 
 if __name__ == "__main__":
-    test = RequestAndStore()
+    test = TimelineStatuses("willdstrong")
     test.request_tweets_from_api()
