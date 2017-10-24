@@ -67,5 +67,5 @@ Vagrant.configure("2") do |config|
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
-  config.vm.provision "shell", privileged: false, path: "scripts/start.sh", run:"always"
+  config.vm.provision "shell", privileged: false, path: "scripts/provision.sh", run:"always"
 end
