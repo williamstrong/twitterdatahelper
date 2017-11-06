@@ -9,6 +9,7 @@ class DB:
         with open("TwitterData/DatabaseController/mongo_connect") as mongo_cred_file:
             mongo_cred = mongo_cred_file.read()
         self.client = MongoClient(mongo_cred)
+        self.db = self.client.tweets
 
 
         # Connect to DB
@@ -16,6 +17,13 @@ class DB:
         # self.db = self.client.store_tweets
 
         # self.collection = self.db.tweet_collection
+
+    def create_collection(self, collection_name):
+        self.db.create_collection(collection_name)
+
+    def remove_collection(self, collection_name):
+        """Dangerous, only use this if intending to permanently delete a collection."""
+        self.db.drop_collection(collection_name)
 
     def collect_stats(self):
         # print(self.db.command("collstats", "new"))
@@ -26,3 +34,4 @@ class DB:
 
     def search_collection_name(self, name):
         pass
+
