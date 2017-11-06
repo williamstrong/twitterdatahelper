@@ -6,7 +6,7 @@ class DB:
     def __init__(self):
 
         # For use with MongoDB Atlas
-        with open("mongo_connect.txt") as mongo_cred_file:
+        with open("TwitterData/DatabaseController/mongo_connect") as mongo_cred_file:
             mongo_cred = mongo_cred_file.read()
         self.client = MongoClient(mongo_cred)
 
