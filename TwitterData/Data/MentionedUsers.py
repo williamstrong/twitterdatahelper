@@ -1,23 +1,15 @@
 from ..DatabaseController.Read import ReadFromDatabase
 
 
-class Mentioned:
-    def __init__(self, name):
-        self.name = name
-        self._test_if_name_exist()
+# Get a list of people that have been mentioned and then start the process over and over and over again.
 
-    def _test_if_name_exist(self):
-        # If the name is a collection in the DB and is recent use it, otherwise request usertimeline from
-        # TwitterController or add tweets since last_id and update name.
-        pass
-
-    def _request_from_db(self):
-        pass
-
-    def _create_list_of_users(self):
-        pass
-
-    def _create_mentions_map(self):
-        pass
+FILTER = { 'user_mentions': { '$gt': [] } }
 
 
+def user_mentions(user):
+    user_tweets = ReadFromDatabase("timeline_tweets", user)
+    mention_tweets = user_tweets.read_filtered_data(FILTER)
+    mentioned = []
+    for i in mention_tweets:
+        mentioned += i['user_mentions']
+    return mentioned

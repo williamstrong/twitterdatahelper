@@ -3,11 +3,14 @@ from .Database import Database
 
 class ReadFromDatabase(Database):
 
-    def __init__(self, db_name):
+    def __init__(self, db_name, collection):
         super().__init__(db_name)
+        self.db_name = db_name
+        self.collection = self.db[collection]
 
-    def read_raw_data(self, collection):
-        return self.db[collection].find()
 
-    def read_filtered_data(self, collection, data, filter):
-        pass
+    def read_raw_data(self):
+        return self.collection.find()
+
+    def read_filtered_data(self, filter):
+        return self.collection.find(filter)

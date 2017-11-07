@@ -79,7 +79,6 @@ class RequestAndStore(Tweets):
 
     def _counter(self, list):
         self.count += len(list)
-        print(self.count)
 
     def _api_call(self):
         raise NoSubClass(type(self).__name__)
@@ -88,28 +87,19 @@ class RequestAndStore(Tweets):
         raise NoSubClass(type(self).__name__)
 
 
-class Retrieve():
-    def __init__(self):
-        super().__init__()
-        self.name = None
+class TimelineStatuses():
+    def __init__(self, name):
+        if not search_db("timeline_tweets", name): TimelineStatusesRS(name)
 
-    def db_cursor(self):
-        pass
-
-    def search(self):
-        return search_db("tweets", self.name)
-
-
-def TimelineStatuses(name):
-    if search_db("timeline_tweets", name): return TimelineStatusesR(name)
-    else: return TimelineStatusesRS(name)
-
+        self.name = name
+        self.db = ReadFromDatabase("timeline_tweets", self.name)
 
 class TimelineStatusesRS(RequestAndStore):
     def __init__(self, name):
         super().__init__()
         self.name = name
         self.collection = name
+        self.request_tweets_from_api()
 
     # If api call is needed
     def _api_call(self):
@@ -128,18 +118,22 @@ class TimelineStatusesRS(RequestAndStore):
             exclude_replies=True,
             trim_user=True)
 
+class Subject:
+    def __init__(self, subject):
+        if not search_db("subjects", subject): SubjectRS(subject)
 
-class TimelineStatusesR(Retrieve):
-    def __init__(self, name):
-        super(TimelineStatusesR, self).__init__()
+        self.subject = subject
+        self.db = ReadFromDatabase("subject", self.subject)
 
 
-class Subject(Retrieve):
+class SubjectRS(RequestAndStore):
     def __init__(self, subject, date):
         super().__init__()
         self.subject = subject
         self.since_date = date
-        self.collection = subject + date
+        self.collection = subject
+        self.request_tweets_from_api()
+
 
     def _api_call(self):
         return self.api.GetSearch(

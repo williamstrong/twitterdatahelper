@@ -39,11 +39,11 @@ class TestRequestAndStoreTweets(unittest.TestCase):
     def tearDown(self):
         pass
 
-
+@unittest.skip
 class TestTimelineStatusesRS(unittest.TestCase):
     def setUp(self):
-        self.tl_class = TimelineStatusesRS("@BarackObama")
-        self.tl_class.name = "willdstrong_test"
+        self.tl_class = TimelineStatusesRS("willdstrong")
+        self.tl_class.collection = "willdstrong_test"
 
         self.db = ReadFromDatabase("timeline_tweets")
 
@@ -56,21 +56,24 @@ class TestTimelineStatusesRS(unittest.TestCase):
 
 @unittest.skip
 class TestTimelineStatuses(unittest.TestCase):
-
     def setUp(self):
-        self.db = Database("timeline_tweets")
-        self.db.create_collection("test")
+        self.timeline = TimelineStatuses("willdstrong")
+
+    def test_db(self):
+        self.assertTrue(self.timeline.db != None)
+
+
+@unittest.skip
+class TestSubjectRS(unittest.TestCase):
+    def setUp(self):
+        self.tl_class = SubjectRS("willdstrong")
+        self.tl_class.collection = "willdstrong_test"
+
+        self.db = ReadFromDatabase("timeline_tweets")
 
     def tearDown(self):
-        self.db.remove_collection("test")
+        pass
 
-
-    def test_TimelineStatusesR(self):
-        self.assertTrue(type(TimelineStatuses("test")) == TimelineStatusesR)
-
-    def test_TimelineStatusesRS(self):
-        self.assertTrue(type(TimelineStatuses("not_test")) == TimelineStatusesRS)
-
-
-
-
+    def test_request_tweet_from_api(self):
+        self.tl_class.request_tweets_from_api()
+        self.assertTrue(self.db.read_raw_data("willdstrong_test") != None)
