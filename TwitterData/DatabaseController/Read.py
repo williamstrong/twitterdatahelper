@@ -1,10 +1,10 @@
-from ._Database import DB
+from .Database import Database
 
 
-class ReadFromDB(DB):
+class ReadFromDatabase(Database):
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, db_name):
+        super().__init__(db_name)
 
     def read_raw_data(self, collection):
         return self.db[collection].find()

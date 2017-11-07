@@ -1,15 +1,16 @@
 from pymongo import MongoClient
+from TwitterData.DatabaseController import __credential_file__
 
 
-class DB:
+class Database:
 
-    def __init__(self):
+    def __init__(self, db_name):
 
         # For use with MongoDB Atlas
-        with open("TwitterData/DatabaseController/mongo_connect") as mongo_cred_file:
+        with open(__credential_file__) as mongo_cred_file:
             mongo_cred = mongo_cred_file.read()
         self.client = MongoClient(mongo_cred)
-        self.db = self.client.tweets
+        self.db = self.client[db_name]
 
 
         # Connect to DB
@@ -29,9 +30,13 @@ class DB:
         # print(self.db.command("collstats", "new"))
         pass
 
-    def show_collections(self):
-        print(self.db.collection_names())
+    def collections(self):
+        return self.db.collection_names()
 
     def search_collection_name(self, name):
         pass
 
+
+if __name__ == "__main__":
+    db = Database()
+    db.collections()

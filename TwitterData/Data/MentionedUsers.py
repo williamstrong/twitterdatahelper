@@ -1,4 +1,4 @@
-from ..DatabaseController.Read import ReadFromDB
+from ..DatabaseController.Read import ReadFromDatabase
 
 
 class Mentioned:
