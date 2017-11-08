@@ -1,7 +1,7 @@
 import unittest
 from TwitterData.DatabaseController.Database import Database
-from TwitterData.DatabaseController.Write import WriteToDatabase
-from TwitterData.DatabaseController.Read import ReadFromDatabase
+from TwitterData.DatabaseController.WriteToDatabase import WriteToDatabase
+from TwitterData.DatabaseController.ReadFromDatabase import ReadFromDatabase
 
 
 class TestDatabase(unittest.TestCase):
@@ -32,13 +32,14 @@ def in_list(collection_list):
 
 class TestWrite(unittest.TestCase):
     def setUp(self):
-        self.write_db = WriteToDatabase("test")
         self.collection = "test"
+
+        self.write_db = WriteToDatabase("test", self.collection)
         self.data = {'TestWrite': 'pass'}
 
 
     def test_add_data(self):
-        num = self.write_db.add_data(self.collection, self.data)
+        num = self.write_db.add_data(self.data)
         self.assertTrue(num != None)
 
     def tearDown(self):
@@ -47,16 +48,16 @@ class TestWrite(unittest.TestCase):
 
 class TestRead(unittest.TestCase):
     def setUp(self):
-        self.read_db = ReadFromDatabase("test")
         self.collection = "test"
+        self.read_db = ReadFromDatabase("test", self.collection)
         data = {'TestWrite': 'pass'}
 
-        self.write_db = WriteToDatabase("test")
-        self.write_db.add_data(self.collection, data)
+        self.write_db = WriteToDatabase("test", self.collection)
+        self.write_db.add_data(data)
 
 
     def test_read_raw_data(self):
-        self.assertTrue(self.read_db.read_raw_data(self.collection) != None)
+        self.assertTrue(self.read_db.read_raw_data() != None)
 
     def test_read_filtered_data(self):
         pass

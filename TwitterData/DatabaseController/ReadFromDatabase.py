@@ -8,6 +8,8 @@ class ReadFromDatabase(Database):
         self.db_name = db_name
         self.collection = self.db[collection]
 
+    def read_distinct(self, value):
+        return self.collection.distinct(value)
 
     def read_raw_data(self):
         return self.collection.find()

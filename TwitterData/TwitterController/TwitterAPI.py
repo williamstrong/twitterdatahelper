@@ -6,8 +6,8 @@ import twitter
 
 from TwitterData.TwitterController.TwitterError import NoSubClass
 from TwitterData.DatabaseController.Database import Database
-from TwitterData.DatabaseController.Read import ReadFromDatabase
-from TwitterData.DatabaseController.Write import WriteToDatabase
+from TwitterData.DatabaseController.ReadFromDatabase import ReadFromDatabase
+from TwitterData.DatabaseController.WriteToDatabase import WriteToDatabase
 from TwitterData.TwitterController import __credential_file__ as twitter_cred
 
 
@@ -87,9 +87,11 @@ class RequestAndStore(Tweets):
         raise NoSubClass(type(self).__name__)
 
 
-class TimelineStatuses():
+class TimelineStatuses(ReadFromDatabase):
     def __init__(self, name):
         if not search_db("timeline_tweets", name): TimelineStatusesRS(name)
+        super(TimelineStatuses, self).__init__("timeline_tweets", name)
+
 
         self.name = name
         self.db = ReadFromDatabase("timeline_tweets", self.name)

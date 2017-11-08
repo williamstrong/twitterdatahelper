@@ -2,8 +2,8 @@ import os
 
 __all__ = [
     "Database",
-    "Read",
-    "Write"]
+    "ReadFromDatabase",
+    "WriteToDatabase"]
 
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
