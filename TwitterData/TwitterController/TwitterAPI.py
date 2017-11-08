@@ -1,8 +1,9 @@
 
 import json
 from datetime import datetime
-
+from threading import BoundedSemaphore
 import twitter
+
 
 from TwitterData.TwitterController.TwitterError import NoSubClass
 from TwitterData.DatabaseController.Database import Database
@@ -14,8 +15,10 @@ from TwitterData.TwitterController import __credential_file__ as twitter_cred
 def search_db(db_name, coll_name):
     if coll_name == None:
         raise NoSubClass
-    db = Database(db_name)
-    coll_list = db.collections()
+    with db_limit_lock:
+        db = Database(db_name)
+        coll_list = db.collections()
+        db.close()
     for x in coll_list:
         if x == coll_name:
             return True
@@ -46,19 +49,30 @@ class Tweets:
         print(self.api.rate_limit.resources)
 
 
+class TimelineStatuses(ReadFromDatabase):
+    def __init__(self, name):
+        if not search_db("timeline_tweets", name): TimelineStatusesRS(name)
+        super(TimelineStatuses, self).__init__("timeline_tweets", name)
+
+
+        self.name = name
+        self.db = ReadFromDatabase("timeline_tweets", self.name)
+
+
+db_limit_lock = BoundedSemaphore(100)
+
 class RequestAndStore(Tweets):
     def __init__(self):
         super().__init__()
         self.collection = None
-
-        self.db = WriteToDatabase("timeline_tweets")
+        self.db = None
 
     def request_tweets_from_api(self):
         # Test last_id; if exist start from last_id else start from beginning
         last_id = 0
         api_request = self._api_call()
         self._add_tweet_list_to_db(api_request)
-        while len(api_request) > 1:
+        while (len(api_request) > 1):
             try:
                 last_id = api_request[-1].id
             except IndexError:
@@ -71,9 +85,11 @@ class RequestAndStore(Tweets):
             self._add_tweet_list_to_db(api_request)
 
     def _add_tweet_list_to_db(self, tweet_list):
-        for status in tweet_list:
-            self.db.add_data(self.collection, status.AsDict())
-        self._counter(tweet_list)
+        with db_limit_lock:
+            for status in tweet_list:
+                self.db.add_data(status.AsDict())
+            self._counter(tweet_list)
+            self.db.close()
         # Potentially another way to do this
         # self.db.add_data([status.AsDict for status in tweet_list])
 
@@ -87,20 +103,14 @@ class RequestAndStore(Tweets):
         raise NoSubClass(type(self).__name__)
 
 
-class TimelineStatuses(ReadFromDatabase):
-    def __init__(self, name):
-        if not search_db("timeline_tweets", name): TimelineStatusesRS(name)
-        super(TimelineStatuses, self).__init__("timeline_tweets", name)
-
-
-        self.name = name
-        self.db = ReadFromDatabase("timeline_tweets", self.name)
 
 class TimelineStatusesRS(RequestAndStore):
     def __init__(self, name):
         super().__init__()
         self.name = name
         self.collection = name
+        self.db = WriteToDatabase("timeline_tweets", self.collection)
+
         self.request_tweets_from_api()
 
     # If api call is needed

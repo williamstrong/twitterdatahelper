@@ -2,7 +2,7 @@ import unittest
 from TwitterData.TwitterController.TwitterAPI import *
 
 
-@unittest.skip
+# @unittest.skip
 class TestTweets(unittest.TestCase):
 
     def setUp(self):
@@ -24,37 +24,24 @@ class TestTweets(unittest.TestCase):
     def tearDown(self):
         self.db.client.drop_database("test")
 
-@unittest.skip
-class TestRequestAndStoreTweets(unittest.TestCase):
 
-    def setUp(self):
-        pass
 
-    def test_request_tweets_from_api(self):
-        pass
-
-    def test_add_tweet_list_to_db(self):
-        pass
-
-    def tearDown(self):
-        pass
-
-@unittest.skip
+# @unittest.skip
 class TestTimelineStatusesRS(unittest.TestCase):
     def setUp(self):
         self.tl_class = TimelineStatusesRS("willdstrong")
         self.tl_class.collection = "willdstrong_test"
 
-        self.db = ReadFromDatabase("timeline_tweets")
+        self.db = ReadFromDatabase("timeline_tweets", "willdstrong_test")
 
     def tearDown(self):
         pass
 
     def test_request_tweet_from_api(self):
         self.tl_class.request_tweets_from_api()
-        self.assertTrue(self.db.read_raw_data("willdstrong_test") != None)
+        self.assertTrue(self.db.read_raw_data() != None)
 
-@unittest.skip
+# @unittest.skip
 class TestTimelineStatuses(unittest.TestCase):
     def setUp(self):
         self.timeline = TimelineStatuses("willdstrong")
@@ -69,11 +56,11 @@ class TestSubjectRS(unittest.TestCase):
         self.tl_class = SubjectRS("willdstrong")
         self.tl_class.collection = "willdstrong_test"
 
-        self.db = ReadFromDatabase("timeline_tweets")
+        self.db = ReadFromDatabase("timeline_tweets", "willdstrong_test")
 
     def tearDown(self):
         pass
 
     def test_request_tweet_from_api(self):
         self.tl_class.request_tweets_from_api()
-        self.assertTrue(self.db.read_raw_data("willdstrong_test") != None)
+        self.assertTrue(self.db.read_raw_data() != None)

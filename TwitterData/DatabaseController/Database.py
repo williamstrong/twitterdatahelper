@@ -5,11 +5,10 @@ from TwitterData.DatabaseController import __credential_file__
 class Database:
 
     def __init__(self, db_name):
-
         # For use with MongoDB Atlas
         with open(__credential_file__) as mongo_cred_file:
             mongo_cred = mongo_cred_file.read()
-        self.client = MongoClient(mongo_cred)
+        self.client = MongoClient(mongo_cred, connect=False)
         self.db = self.client[db_name]
 
 
@@ -18,6 +17,9 @@ class Database:
         # self.db = self.client.store_tweets
 
         # self.collection = self.db.tweet_collection
+
+    def close(self):
+        self.client.close()
 
     def create_collection(self, collection_name):
         self.db.create_collection(collection_name)
