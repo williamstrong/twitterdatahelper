@@ -1,3 +1,8 @@
 .vagrant
-.idea/*
-__pychache__
+__pychache__/
+/twitter_data/twitter_controller/twitter_access.json
+/twitter_data/database_controller/mongo_connect
+.idea/
+scripts/
+
+
