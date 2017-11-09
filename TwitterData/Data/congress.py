@@ -1,9 +1,14 @@
-import pickle
 
-with open('congress.pickle', 'rb') as f:
-    congress_users = pickle.load(f)
+def congress_users():
+    import pickle
 
-tmp = []
+    with open('congress.pickle', 'rb') as f:
+        congress_users = pickle.load(f)
 
-for i in congress_users:
-    tmp.append({i['screen_name']: i['name']})
+    tmp = []
+
+    for i in congress_users:
+        tmp.append({i['screen_name']: i['name']})
+
+    return tmp
+

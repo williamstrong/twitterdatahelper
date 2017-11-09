@@ -6,27 +6,34 @@ from TwitterData.DatabaseController.ReadFromDatabase import ReadFromDatabase
 
 from TwitterData.Utility import threaded
 from threading import Lock
+
+
+from graph_tool import *
+
+
 # Get a list of people that have been mentioned and then start the process over and over and over again.
 
 FILTER = { 'user_mentions': { '$gt': [] } }
 db_name = "data"
 collection_name = "mentions_map"
 db = ReadFromDatabase(db_name, collection_name)
+
+# For testing
 first_user = "BarackObama"
-
-
-
 
 users = []
 master_users = []
 
-def master_users_init():
-    pass
-
-def main():
+def recursive_from_first_user():
     w = user_list(first_user)
     master_users.append(first_user)
     w.join()
+
+def master_users_init(fn):
+    return fn()
+
+def main(*args, **kwargs):
+    master_users_init(args[0])
     # Will continue until it can't anymore. Will it download all of twitter? Who knows.
     while (more_users()):
         with user_lock:
@@ -91,4 +98,5 @@ def user_mentions(user):
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    print("fuck yeah")
