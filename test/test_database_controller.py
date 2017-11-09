@@ -1,7 +1,7 @@
 import unittest
-from TwitterData.DatabaseController.Database import Database
-from TwitterData.DatabaseController.WriteToDatabase import WriteToDatabase
-from TwitterData.DatabaseController.ReadFromDatabase import ReadFromDatabase
+from twitter_data.database_controller.database import Database
+from twitter_data.database_controller.write import WriteToDatabase
+from twitter_data.database_controller.read import ReadFromDatabase
 
 
 class TestDatabase(unittest.TestCase):
