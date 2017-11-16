@@ -1,0 +1,3 @@
+Database.py
+    Line 5: Create acceptable exception. Shouldn't allow users to connect with a database without creating a user and
+        password for that database.

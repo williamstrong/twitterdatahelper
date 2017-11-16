@@ -1,21 +1,30 @@
 from pymongo import MongoClient
-from twitter_data.database_controller import __credential_file__
-
 
 class Database:
 
     def __init__(self, db_name):
-        # For use with MongoDB Atlas
-        with open(__credential_file__) as mongo_cred_file:
-            mongo_cred = mongo_cred_file.read()
-        self.client = MongoClient(mongo_cred, connect=False)
+        # "mongodb://ian:secretPassword@123.45.67.89/cool_db"
+        from twitter_data.database_controller.config import config_file
+        try:
+            user = config_file[db_name]['USER']
+            pwd = config_file[db_name]['PWD']
+            url = config_file[db_name]['URL']
+        except KeyError:
+        # uh oh. This config doesn't exist. Create db
+            print("DB doesn't exist in config.")
+
+            return
+
+
+        config = {'user': user, 'pwd': pwd, 'url':url, 'db_name': db_name}
+
+        mongo_string = "mongodb://{user}:{pwd}@{url}/{db_name}".format(**config)
+        print(mongo_string)
+        self.client = MongoClient(mongo_string, connect=False)
+        print(self.client)
         self.db = self.client[db_name]
 
-        # Connect to DB
-        # self.client = MongoClient('localhost', 27017)
-        # self.db = self.client.store_tweets
-
-        # self.collection = self.db.tweet_collection
+        self.collection = self.db.tweet_collection
 
     def close(self):
         self.client.close()
@@ -39,5 +48,5 @@ class Database:
 
 
 if __name__ == "__main__":
-    db = Database()
-    db.collections()
+    db = Database('twiter_test')
+    # db.collections()
