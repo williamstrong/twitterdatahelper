@@ -22,7 +22,7 @@ class TestDatabase(unittest.TestCase):
         self.assertFalse(in_list(self.db.collections()))
 
     def tearDown(self):
-        pass
+        self.db.remove_collection("test")
 
 def in_list(collection_list):
     """Return true if test is in collection"""
@@ -34,7 +34,7 @@ class TestWrite(unittest.TestCase):
     def setUp(self):
         self.collection = "test"
 
-        self.write_db = WriteToDatabase("twitter_test", self.collection)
+        self.write_db = WriteToDatabase("test", self.collection)
         self.data = {'TestWrite': 'pass'}
 
 
@@ -49,10 +49,10 @@ class TestWrite(unittest.TestCase):
 class TestRead(unittest.TestCase):
     def setUp(self):
         self.collection = "test"
-        self.read_db = ReadFromDatabase("twitter_test", self.collection)
+        self.read_db = ReadFromDatabase("test", self.collection)
         data = {'TestWrite': 'pass'}
 
-        self.write_db = WriteToDatabase("twitter_test", self.collection)
+        self.write_db = WriteToDatabase("test", self.collection)
         self.write_db.add_data(data)
 
 

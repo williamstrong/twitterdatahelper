@@ -2,7 +2,7 @@ import unittest
 from twitter_data.twitter_controller.twitter_api import *
 
 
-# @unittest.skip
+@unittest.skip
 class TestTweets(unittest.TestCase):
 
     def setUp(self):
@@ -30,9 +30,9 @@ class TestTweets(unittest.TestCase):
 class TestTimelineStatusesRS(unittest.TestCase):
     def setUp(self):
         self.tl_class = TimelineStatusesRS("willdstrong")
-        self.tl_class.collection = "willdstrong_test"
+        self.tl_class.collection = "willdstrong"
 
-        self.db = ReadFromDatabase("timeline_tweets", "willdstrong_test")
+        self.db = ReadFromDatabase("timeline_tweets", "willdstrong")
 
     def tearDown(self):
         pass
@@ -54,9 +54,9 @@ class TestTimelineStatuses(unittest.TestCase):
 class TestSubjectRS(unittest.TestCase):
     def setUp(self):
         self.tl_class = SubjectRS("willdstrong")
-        self.tl_class.collection = "willdstrong_test"
+        self.tl_class.collection = "willdstrong"
 
-        self.db = ReadFromDatabase("timeline_tweets", "willdstrong_test")
+        self.db = ReadFromDatabase("timeline_tweets", "willdstrong")
 
     def tearDown(self):
         pass
