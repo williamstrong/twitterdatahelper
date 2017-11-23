@@ -1,0 +1,5 @@
+version: '2'
+services:
+  graph-tool:
+    build: ./
+    image: dcagatay/graph-tool
