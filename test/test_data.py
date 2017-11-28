@@ -1,6 +1,6 @@
 import unittest
-from twitter_data.data import mentions
-from twitter_data.data import congress
+from social_networks.data import mentions
+from social_networks.data import congress
 
 
 class TestMentions(unittest.TestCase):

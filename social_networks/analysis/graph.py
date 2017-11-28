@@ -1,5 +1,5 @@
 from graph_tool.all import *
-from twitter_data.database_controller import *
+from social_networks.database_controller import *
 
 reader = ReadFromDatabase("data", "congress_map_trimmed")
 cursor = reader.read_raw_data()

@@ -1,6 +1,6 @@
-from twitter_data.database_controller.database import Database
-from twitter_data.database_controller.read import ReadFromDatabase
-from twitter_data.database_controller.write import WriteToDatabase
+from social_networks.database_controller.database import Database
+from social_networks.database_controller.read import ReadFromDatabase
+from social_networks.database_controller.write import WriteToDatabase
 
 import os
 

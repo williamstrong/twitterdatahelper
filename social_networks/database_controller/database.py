@@ -3,7 +3,7 @@ from pymongo import MongoClient
 class Database:
 
     def __init__(self, db_name):
-        from twitter_data.database_controller.config import config_file
+        from social_networks.database_controller.config import config_file
         try:
             user = config_file[db_name]['USER']
             pwd = config_file[db_name]['PWD']

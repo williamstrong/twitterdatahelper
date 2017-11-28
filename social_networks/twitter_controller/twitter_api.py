@@ -5,11 +5,11 @@ from threading import BoundedSemaphore
 import twitter
 
 
-from twitter_data.twitter_controller.twitter_error import NoSubClass
-from twitter_data.database_controller.database import Database
-from twitter_data.database_controller.read import ReadFromDatabase
-from twitter_data.database_controller.write import WriteToDatabase
-from twitter_data.twitter_controller import __credential_file__ as twitter_cred
+from social_networks.twitter_controller.twitter_error import NoSubClass
+from social_networks.database_controller.database import Database
+from social_networks.database_controller.read import ReadFromDatabase
+from social_networks.database_controller.write import WriteToDatabase
+from social_networks.twitter_controller import __credential_file__ as twitter_cred
 
 
 def search_db(db_name, coll_name):

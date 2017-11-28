@@ -1,5 +1,5 @@
 import configparser
-from twitter_data.database_controller import __credential_file__
+from social_networks.database_controller import __credential_file__
 
 
 config_file = configparser.ConfigParser()

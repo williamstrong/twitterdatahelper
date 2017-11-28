@@ -1,4 +1,4 @@
-from twitter_data.data import __congress__
+from social_networks.data import __congress__
 
 
 def congress_users():

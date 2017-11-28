@@ -1,5 +1,5 @@
 import os
-# from twitter_data.twitter_controller.twitter_api import TimelineStatuses, Subject
+# from social_networks.twitter_controller.twitter_api import TimelineStatuses, Subject
 
 # __all__ = [TimelineStatuses, Subject]
 

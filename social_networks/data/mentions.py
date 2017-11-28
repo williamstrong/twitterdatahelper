@@ -1,8 +1,8 @@
 from threading import Lock
 
-from twitter_data.Utility import threaded
-from twitter_data.data import *
-from twitter_data.twitter_controller.twitter_api import TimelineStatuses
+from social_networks.Utility import threaded
+from social_networks.data import *
+from social_networks.twitter_controller.twitter_api import TimelineStatuses
 
 
 # Global names for
@@ -104,7 +104,7 @@ def _add_to_db(user, mentions):
 
 
 def _user_mentions(user):
-    from twitter_data.twitter_controller.twitter_api import db_limit_lock
+    from social_networks.twitter_controller.twitter_api import db_limit_lock
     """ Puts distinct user_mention values in a list"""
     with db_limit_lock:
         mentions = TimelineStatuses(user).read_distinct("user_mentions")
@@ -143,7 +143,7 @@ def self_contained_network(untrimmed_collection, trimmed_collection, type=_from_
 
     # Trim and put trimmed entries into a trimmed_collection.
     trim = _trim_network(untrimmed_collection)
-    from twitter_data.database_controller import WriteToDatabase
+    from social_networks.database_controller import WriteToDatabase
     w_db = WriteToDatabase(database, trimmed_collection)
     for doc in trim:
         w_db.add_data(doc)
@@ -151,11 +151,11 @@ def self_contained_network(untrimmed_collection, trimmed_collection, type=_from_
 
 
 if __name__ == "__main__":
-    # from twitter_data.data import congress
+    # from social_networks.data import congress
     # main(from_static_list, user_list=congress.congress_users())
 
     trim = _trim_network("congress_map")
-    from twitter_data.database_controller import WriteToDatabase
+    from social_networks.database_controller import WriteToDatabase
 
     w_db = WriteToDatabase("data", "congress_map_trimmed")
     for doc in trim:
