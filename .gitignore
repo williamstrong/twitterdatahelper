@@ -1,9 +1,14 @@
 .vagrant
 __pychache__/*
 __pycache__
-/twitter_data/twitter_controller/twitter_access.json
-/twitter_data/database_controller/mongo_connect
+
+# Config files
+/social_networks/twitter_controller/twitter_access.json
+/social_networks/database_controller/mongo_connect
+
+# Images
+/social_networks/analysis/graphs/*
+
+
 .idea/
 scripts/
-
-
