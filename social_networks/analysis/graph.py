@@ -1,10 +1,11 @@
-from graph_tool.all import *
-from social_networks.database_controller import *
+# from graph_tool.all import *
+import graph_tool.all as gt
+import social_networks.database_controller as db
 
-reader = ReadFromDatabase("data", "congress_map_trimmed")
+reader = db.ReadFromDatabase("data", "congress_map_trimmed")
 cursor = reader.read_raw_data()
 
-g = Graph()
+g = gt.Graph()
 g.add_vertex(cursor.count())
 
 #testing
@@ -26,11 +27,11 @@ cursor.rewind()
 #create all edges
 for user in cursor:
     #v1 is the vertex where name = cursor['user']
-    v1 = find_vertex(g, g.vp.name, user['user'])[0]
+    v1 = gt.find_vertex(g, g.vp.name, user['user'])[0]
     for mention in user['user_mentions']:
         try:
             # v2 is the vertex where name = mention
-            v2 = find_vertex(g, g.vp.name, mention)[0]
+            v2 = gt.find_vertex(g, g.vp.name, mention)[0]
         except IndexError:
             print("Error: " + mention + " is not in the collection")
             continue
@@ -40,10 +41,18 @@ for user in cursor:
             edge = g.add_edge(v1, v2)
 
 #attempt at weighting the graph
-pos = sfdp_layout(g)
+pos = gt.sfdp_layout(g)
 
-graph_draw(g, pos=pos, vertex_text=g.vertex_index, vertex_font_size=12,
-            output_size=(1000, 1000), output="new-graph.png")
+state = gt.minimize_blockmodel_dl(g)
+state.draw(
+    pos=pos,
+    vertex_text=g.vertex_index,
+    vertex_font_size=12,
+    output_size=(1000, 1000),
+    output="graphs/pls_work.png")
+
+# graph_draw(g, pos=pos, vertex_text=g.vertex_index, vertex_font_size=12,
+#             output_size=(1000, 1000), output="graphs/new-graph.png")
 
 
 
