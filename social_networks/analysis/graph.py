@@ -43,7 +43,9 @@ for user in cursor:
 #attempt at weighting the graph
 pos = gt.sfdp_layout(g)
 
-state = gt.minimize_blockmodel_dl(g)
+# state = gt.minimize_blockmodel_dl(g)
+state = gt.minimize_nested_blockmodel_dl(g)
+
 state.draw(
     pos=pos,
     vertex_text=g.vertex_index,
