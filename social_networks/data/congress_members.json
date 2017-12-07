@@ -1,0 +1,3031 @@
+ [{
+    "district": "District 16",
+     "years": "6",
+     "name": "Adam Kinzinger",
+     "party": "Republican",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 28",
+     "years": "16",
+     "name": "Adam Schiff",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 9",
+     "years": "20",
+     "name": "Adam Smith",
+     "party": "Democratic",
+     "state": "Washington"
+  },
+   {
+    "district": "District 3",
+     "years": "10",
+     "name": "Adrian Smith",
+     "party": "Republican",
+     "state": "Nebraska"
+  },
+   {
+    "district": "District 13",
+     "years": "0",
+     "name": "Adriano Espaillat",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 9",
+     "years": "12",
+     "name": "Al Green",
+     "party": "Democratic",
+     "state": "Texas"
+  },
+   {
+    "district": "District 47",
+     "years": "4",
+     "name": "Alan Lowenthal",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 8",
+     "years": "4",
+     "name": "Albio Sires",
+     "party": "Democratic",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 20",
+     "years": "24",
+     "name": "Alcee L. Hastings",
+     "party": "Democratic",
+     "state": "Florida"
+  },
+   {
+    "district": "District 2",
+     "years": "2",
+     "name": "Alexander Mooney",
+     "party": "Republican",
+     "state": "West Virginia"
+  },
+   {
+    "district": "District 5",
+     "years": "0",
+     "name": "Alfred Lawson",
+     "party": "Democratic",
+     "state": "Florida"
+  },
+   {
+    "district": "District 12",
+     "years": "3",
+     "name": "Alma Adams",
+     "party": "Democratic",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 7",
+     "years": "4",
+     "name": "Ami Bera",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 7",
+     "years": "9",
+     "name": "Andre Carson",
+     "party": "Democratic",
+     "state": "Indiana"
+  },
+   {
+    "district": "District 1",
+     "years": "6",
+     "name": "Andy Harris",
+     "party": "Republican",
+     "state": "Maryland"
+  },
+   {
+    "district": "District 6",
+     "years": "4",
+     "name": "Andy Barr",
+     "party": "Republican",
+     "state": "Kentucky"
+  },
+   {
+    "district": "District 5",
+     "years": "0",
+     "name": "Andy Biggs",
+     "party": "Republican",
+     "state": "Arizona"
+  },
+   {
+    "district": "District 2",
+     "years": "4",
+     "name": "Ann Wagner",
+     "party": "Republican",
+     "state": "Missouri"
+  },
+   {
+    "district": "District 18",
+     "years": "24",
+     "name": "Anna Eshoo",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 2",
+     "years": "4",
+     "name": "Annie Kuster",
+     "party": "Democratic",
+     "state": "New Hampshire"
+  },
+   {
+    "district": "District 4",
+     "years": "0",
+     "name": "Anthony G. Brown",
+     "party": "Democratic",
+     "state": "Maryland"
+  },
+   {
+    "district": "District 8",
+     "years": "6",
+     "name": "Austin Scott",
+     "party": "Republican",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 10",
+     "years": "2",
+     "name": "Barbara Comstock",
+     "party": "Republican",
+     "state": "Virginia"
+  },
+   {
+    "district": "District 13",
+     "years": "18",
+     "name": "Barbara Lee",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 11",
+     "years": "2",
+     "name": "Barry Loudermilk",
+     "party": "Republican",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 3",
+     "years": "8",
+     "name": "Ben Ray Lujan",
+     "party": "Democratic",
+     "state": "New Mexico"
+  },
+   {
+    "district": "District 2",
+     "years": "24",
+     "name": "Bennie Thompson",
+     "party": "Democratic",
+     "state": "Mississippi"
+  },
+   {
+    "district": "District 16",
+     "years": "4",
+     "name": "Beto O'Rourke",
+     "party": "Democratic",
+     "state": "Texas"
+  },
+   {
+    "district": "District 4",
+     "years": "8",
+     "name": "Betty McCollum",
+     "party": "Democratic",
+     "state": "Minnesota"
+  },
+   {
+    "district": "District 17",
+     "years": "6",
+     "name": "Bill Flores",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 11",
+     "years": "4",
+     "name": "Bill Foster",
+     "party": "Democratic",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 2",
+     "years": "6",
+     "name": "Bill Huizenga",
+     "party": "Republican",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 6",
+     "years": "6",
+     "name": "Bill Johnson",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 9",
+     "years": "6",
+     "name": "Bill Keating",
+     "party": "Democratic",
+     "state": "Massachusetts"
+  },
+   {
+    "district": "District 9",
+     "years": "4",
+     "name": "Bill Pascrell",
+     "party": "Democratic",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 8",
+     "years": "8",
+     "name": "Bill Posey",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 9",
+     "years": "16",
+     "name": "Bill Shuster",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 7",
+     "years": "6",
+     "name": "Billy Long",
+     "party": "Republican",
+     "state": "Missouri"
+  },
+   {
+    "district": "District 3",
+     "years": "8",
+     "name": "Blaine Luetkemeyer",
+     "party": "Republican",
+     "state": "Missouri"
+  },
+   {
+    "district": "District 27",
+     "years": "6",
+     "name": "Blake Farenthold",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 7",
+     "years": "6",
+     "name": "Bob Gibbs",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 6",
+     "years": "24",
+     "name": "Bob Goodlatte",
+     "party": "Republican",
+     "state": "Virginia"
+  },
+   {
+    "district": "District 5",
+     "years": "10",
+     "name": "Robert E. Latta",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 1",
+     "years": "24",
+     "name": "Bobby L. Rush",
+     "party": "Democratic",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 3",
+     "years": "24",
+     "name": "Bobby Scott",
+     "party": "Democratic",
+     "state": "Virginia"
+  },
+   {
+    "district": "District 12",
+     "years": "2",
+     "name": "Bonnie Watson Coleman",
+     "party": "Democratic",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 10",
+     "years": "0",
+     "name": "Brad Schneider",
+     "party": "Democratic",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 30",
+     "years": "20",
+     "name": "Brad Sherman",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 2",
+     "years": "4",
+     "name": "Brad Wenstrup",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 1",
+     "years": "3",
+     "name": "Bradley Byrne",
+     "party": "Republican",
+     "state": "Alabama"
+  },
+   {
+    "district": "District 14",
+     "years": "2",
+     "name": "Brenda Lawrence",
+     "party": "Democratic",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 13",
+     "years": "2",
+     "name": "Brendan Boyle",
+     "party": "Democratic",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 2",
+     "years": "8",
+     "name": "Brett Guthrie",
+     "party": "Republican",
+     "state": "Kentucky"
+  },
+   {
+    "district": "District 36",
+     "years": "2",
+     "name": "Brian Babin",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 8",
+     "years": "0",
+     "name": "Brian Fitzpatrick",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 26",
+     "years": "12",
+     "name": "Brian Higgins",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 18",
+     "years": "0",
+     "name": "Brian Mast",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 2",
+     "years": "2",
+     "name": "Bruce Poliquin",
+     "party": "Republican",
+     "state": "Maine"
+  },
+   {
+    "district": "District 4",
+     "years": "2",
+     "name": "Bruce Westerman",
+     "party": "Republican",
+     "state": "Arkansas"
+  },
+   {
+    "district": "District 26",
+     "years": "2",
+     "name": "Carlos Curbelo",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 1",
+     "years": "0",
+     "name": "Carol Shea-Porter",
+     "party": "Democratic",
+     "state": "New Hampshire"
+  },
+   {
+    "district": "District 12",
+     "years": "24",
+     "name": "Carolyn B. Maloney",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 5",
+     "years": "12",
+     "name": "Cathy McMorris Rodgers",
+     "party": "Republican",
+     "state": "Washington"
+  },
+   {
+    "district": "District 2",
+     "years": "6",
+     "name": "Cedric Richmond",
+     "party": "Democratic",
+     "state": "Louisiana"
+  },
+   {
+    "district": "District 3",
+     "years": "6",
+     "name": "Charles J. Fleischmann",
+     "party": "Republican",
+     "state": "Tennessee"
+  },
+   {
+    "district": "District 13",
+     "years": "0",
+     "name": "Charlie Crist",
+     "party": "Democratic",
+     "state": "Florida"
+  },
+   {
+    "district": "District 15",
+     "years": "12",
+     "name": "Charles W. Dent",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 1",
+     "years": "8",
+     "name": "Chellie Pingree",
+     "party": "Democratic",
+     "state": "Maine"
+  },
+   {
+    "district": "District 17",
+     "years": "4",
+     "name": "Cheri Bustos",
+     "party": "Democratic",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 27",
+     "years": "4",
+     "name": "Chris Collins",
+     "party": "Republican",
+     "state": "New York"
+  },
+   {
+    "district": "District 4",
+     "years": "36",
+     "name": "Chris Smith",
+     "party": "Republican",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 2",
+     "years": "4",
+     "name": "Chris Stewart",
+     "party": "Republican",
+     "state": "Utah"
+  },
+   {
+    "district": "District 22",
+     "years": "0",
+     "name": "Claudia Tenney",
+     "party": "Republican",
+     "state": "New York"
+  },
+   {
+    "district": "District 3",
+     "years": "0",
+     "name": "Clay Higgins",
+     "party": "Republican",
+     "state": "Louisiana"
+  },
+   {
+    "district": "District 1",
+     "years": "1",
+     "name": "Colleen Hanabusa",
+     "party": "Democratic",
+     "state": "Hawaii"
+  },
+   {
+    "district": "District 7",
+     "years": "26",
+     "name": "Collin Peterson",
+     "party": "Democratic",
+     "state": "Minnesota"
+  },
+   {
+    "district": "District 5",
+     "years": "4",
+     "name": "Dan Kildee",
+     "party": "Democratic",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 4",
+     "years": "2",
+     "name": "Dan Newhouse",
+     "party": "Republican",
+     "state": "Washington"
+  },
+   {
+    "district": "District 48",
+     "years": "28",
+     "name": "Dana Rohrabacher",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 11",
+     "years": "2",
+     "name": "Daniel Donovan",
+     "party": "Republican",
+     "state": "New York"
+  },
+   {
+    "district": "District 3",
+     "years": "12",
+     "name": "Daniel Lipinski",
+     "party": "Democratic",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 11",
+     "years": "6",
+     "name": "Daniel Webster",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 7",
+     "years": "20",
+     "name": "Danny K. Davis",
+     "party": "Democratic",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 18",
+     "years": "2",
+     "name": "Darin LaHood",
+     "party": "Republican",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 49",
+     "years": "16",
+     "name": "Darrell Issa",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 9",
+     "years": "0",
+     "name": "Darren Soto",
+     "party": "Democratic",
+     "state": "Florida"
+  },
+   {
+    "district": "District 2",
+     "years": "10",
+     "name": "Dave Loebsack",
+     "party": "Democratic",
+     "state": "Iowa"
+  },
+   {
+    "district": "District 8",
+     "years": "12",
+     "name": "Dave Reichert",
+     "party": "Republican",
+     "state": "Washington"
+  },
+   {
+    "district": "District 7",
+     "years": "3",
+     "name": "David Brat",
+     "party": "Republican",
+     "state": "Virginia"
+  },
+   {
+    "district": "District 1",
+     "years": "6",
+     "name": "David N. Cicilline",
+     "party": "Democratic",
+     "state": "Rhode Island"
+  },
+   {
+    "district": "District 14",
+     "years": "4",
+     "name": "David Joyce",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 8",
+     "years": "0",
+     "name": "David Kustoff",
+     "party": "Republican",
+     "state": "Tennessee"
+  },
+   {
+    "district": "District 1",
+     "years": "6",
+     "name": "David McKinley",
+     "party": "Republican",
+     "state": "West Virginia"
+  },
+   {
+    "district": "District 4",
+     "years": "20",
+     "name": "David Price",
+     "party": "Democratic",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 7",
+     "years": "2",
+     "name": "David Rouzer",
+     "party": "Republican",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 6",
+     "years": "6",
+     "name": "David Schweikert",
+     "party": "Republican",
+     "state": "Arizona"
+  },
+   {
+    "district": "District 13",
+     "years": "14",
+     "name": "David Scott",
+     "party": "Democratic",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 11",
+     "years": "2",
+     "name": "David Trott",
+     "party": "Republican",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 21",
+     "years": "4",
+     "name": "David G. Valadao",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 3",
+     "years": "2",
+     "name": "David Young",
+     "party": "Republican",
+     "state": "Iowa"
+  },
+   {
+    "district": "District 12",
+     "years": "2",
+     "name": "Debbie Dingell",
+     "party": "Democratic",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 23",
+     "years": "12",
+     "name": "Debbie Wasserman Schultz",
+     "party": "Democratic",
+     "state": "Florida"
+  },
+   {
+    "district": "District 15",
+     "years": "6",
+     "name": "Dennis A. Ross",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 10",
+     "years": "4",
+     "name": "Denny Heck",
+     "party": "Democratic",
+     "state": "Washington"
+  },
+   {
+    "district": "District 6",
+     "years": "4",
+     "name": "Derek Kilmer",
+     "party": "Democratic",
+     "state": "Washington"
+  },
+   {
+    "district": "District 22",
+     "years": "14",
+     "name": "Devin Nunes",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 1",
+     "years": "20",
+     "name": "Diana DeGette",
+     "party": "Democratic",
+     "state": "Colorado"
+  },
+   {
+    "district": "District 6",
+     "years": "6",
+     "name": "Diane Black",
+     "party": "Republican",
+     "state": "Tennessee"
+  },
+   {
+    "district": "District 1",
+     "years": "4",
+     "name": "Dina Titus",
+     "party": "Democratic",
+     "state": "Nevada"
+  },
+   {
+    "district": "District 2",
+     "years": "0",
+     "name": "Don Bacon",
+     "party": "Republican",
+     "state": "Nebraska"
+  },
+   {
+    "district": "District 8",
+     "years": "2",
+     "name": "Don Beyer",
+     "party": "Democratic",
+     "state": "Virginia"
+  },
+   {
+    "district": "At-Large District",
+     "years": "44",
+     "name": "Don Young",
+     "party": "Republican",
+     "state": "Alaska"
+  },
+   {
+    "district": "District 4",
+     "years": "0",
+     "name": "Donald McEachin",
+     "party": "Democratic",
+     "state": "Virginia"
+  },
+   {
+    "district": "District 1",
+     "years": "3",
+     "name": "Donald Norcross",
+     "party": "Democratic",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 10",
+     "years": "4",
+     "name": "Donald Payne Jr.",
+     "party": "Democratic",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 6",
+     "years": "12",
+     "name": "Doris Matsui",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 9",
+     "years": "4",
+     "name": "Doug Collins",
+     "party": "Republican",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 1",
+     "years": "4",
+     "name": "Doug LaMalfa",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 5",
+     "years": "10",
+     "name": "Doug Lamborn",
+     "party": "Republican",
+     "state": "Colorado"
+  },
+   {
+    "district": "District 3",
+     "years": "0",
+     "name": "Drew Ferguson",
+     "party": "Republican",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 50",
+     "years": "8",
+     "name": "Duncan Hunter",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 2",
+     "years": "14",
+     "name": "Dutch Ruppersberger",
+     "party": "Democratic",
+     "state": "Maryland"
+  },
+   {
+    "district": "District 2",
+     "years": "1",
+     "name": "Dwight Evans",
+     "party": "Democratic",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 1",
+     "years": "2",
+     "name": "Earl 'Buddy' Carter",
+     "party": "Republican",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 3",
+     "years": "20",
+     "name": "Earl Blumenauer",
+     "party": "Democratic",
+     "state": "Oregon"
+  },
+   {
+    "district": "District 7",
+     "years": "10",
+     "name": "Ed Perlmutter",
+     "party": "Democratic",
+     "state": "Colorado"
+  },
+   {
+    "district": "District 30",
+     "years": "24",
+     "name": "Eddie Bernice Johnson",
+     "party": "Democratic",
+     "state": "Texas"
+  },
+   {
+    "district": "District 39",
+     "years": "24",
+     "name": "Edward Royce",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 7",
+     "years": "21",
+     "name": "Elijah Cummings",
+     "party": "Democratic",
+     "state": "Maryland"
+  },
+   {
+    "district": "District 16",
+     "years": "28",
+     "name": "Eliot Engel",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 21",
+     "years": "2",
+     "name": "Elise Stefanik",
+     "party": "Republican",
+     "state": "New York"
+  },
+   {
+    "district": "District 5",
+     "years": "4",
+     "name": "Elizabeth Esty",
+     "party": "Democratic",
+     "state": "Connecticut"
+  },
+   {
+    "district": "District 5",
+     "years": "13",
+     "name": "Emanuel Cleaver",
+     "party": "Democratic",
+     "state": "Missouri"
+  },
+   {
+    "district": "District 15",
+     "years": "4",
+     "name": "Eric Swalwell",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 3",
+     "years": "8",
+     "name": "Erik Paulsen",
+     "party": "Republican",
+     "state": "Minnesota"
+  },
+   {
+    "district": "District 3",
+     "years": "2",
+     "name": "Evan Jenkins",
+     "party": "Republican",
+     "state": "West Virginia"
+  },
+   {
+    "district": "District 34",
+     "years": "4",
+     "name": "Filemon Vela",
+     "party": "Democratic",
+     "state": "Texas"
+  },
+   {
+    "district": "District 19",
+     "years": "0",
+     "name": "Francis Rooney",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 2",
+     "years": "22",
+     "name": "Frank LoBiondo",
+     "party": "Republican",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 3",
+     "years": "24",
+     "name": "Frank D. Lucas",
+     "party": "Republican",
+     "state": "Oklahoma"
+  },
+   {
+    "district": "District 6",
+     "years": "24",
+     "name": "Frank Pallone",
+     "party": "Democratic",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 6",
+     "years": "30",
+     "name": "Fred Upton",
+     "party": "Republican",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 24",
+     "years": "6",
+     "name": "Frederica S. Wilson",
+     "party": "Democratic",
+     "state": "Florida"
+  },
+   {
+    "district": "District 2",
+     "years": "2",
+     "name": "French Hill",
+     "party": "Republican",
+     "state": "Arkansas"
+  },
+   {
+    "district": "District 1",
+     "years": "13",
+     "name": "G.K. Butterfield",
+     "party": "Democratic",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 6",
+     "years": "2",
+     "name": "Garret Graves",
+     "party": "Republican",
+     "state": "Louisiana"
+  },
+   {
+    "district": "District 6",
+     "years": "2",
+     "name": "Gary Palmer",
+     "party": "Republican",
+     "state": "Alabama"
+  },
+   {
+    "district": "District 29",
+     "years": "24",
+     "name": "Gene Green",
+     "party": "Democratic",
+     "state": "Texas"
+  },
+   {
+    "district": "District 2",
+     "years": "4",
+     "name": "George E.B. Holding",
+     "party": "Republican",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 11",
+     "years": "8",
+     "name": "Gerry Connolly",
+     "party": "Democratic",
+     "state": "Virginia"
+  },
+   {
+    "district": "District 6",
+     "years": "2",
+     "name": "Glenn Grothman",
+     "party": "Republican",
+     "state": "Wisconsin"
+  },
+   {
+    "district": "District 5",
+     "years": "8",
+     "name": "Glenn Thompson",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 6",
+     "years": "4",
+     "name": "Grace Meng",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 32",
+     "years": "18",
+     "name": "Grace Napolitano",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "At-Large District",
+     "years": "0",
+     "name": "Greg Gianforte",
+     "party": "Republican",
+     "state": "Montana"
+  },
+   {
+    "district": "District 2",
+     "years": "18",
+     "name": "Greg Walden",
+     "party": "Republican",
+     "state": "Oregon"
+  },
+   {
+    "district": "District 3",
+     "years": "8",
+     "name": "Gregg Harper",
+     "party": "Republican",
+     "state": "Mississippi"
+  },
+   {
+    "district": "District 5",
+     "years": "4",
+     "name": "Gregory W. Meeks",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 12",
+     "years": "10",
+     "name": "Gus M. Bilirakis",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 4",
+     "years": "12",
+     "name": "Gwen Moore",
+     "party": "Democratic",
+     "state": "Wisconsin"
+  },
+   {
+    "district": "District 8",
+     "years": "4",
+     "name": "Hakeem Jeffries",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 5",
+     "years": "36",
+     "name": "Hal Rogers",
+     "party": "Republican",
+     "state": "Kentucky"
+  },
+   {
+    "district": "District 4",
+     "years": "10",
+     "name": "Hank Johnson",
+     "party": "Democratic",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 28",
+     "years": "12",
+     "name": "Henry Cuellar",
+     "party": "Democratic",
+     "state": "Texas"
+  },
+   {
+    "district": "District 27",
+     "years": "28",
+     "name": "Ileana Ros-Lehtinen",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 1",
+     "years": "0",
+     "name": "Jack Bergman",
+     "party": "Republican",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 14",
+     "years": "9",
+     "name": "Jackie Speier",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 2",
+     "years": "4",
+     "name": "Jackie Walorski",
+     "party": "Republican",
+     "state": "Indiana"
+  },
+   {
+    "district": "District 3",
+     "years": "0",
+     "name": "Jacky Rosen",
+     "party": "Democratic",
+     "state": "Nevada"
+  },
+   {
+    "district": "District 3",
+     "years": "6",
+     "name": "Jaime Herrera Beutler",
+     "party": "Republican",
+     "state": "Washington"
+  },
+   {
+    "district": "District 6",
+     "years": "24",
+     "name": "James E. Clyburn",
+     "party": "Democratic",
+     "state": "South Carolina"
+  },
+   {
+    "district": "District 1",
+     "years": "1",
+     "name": "James Comer Jr.",
+     "party": "Republican",
+     "state": "Kentucky"
+  },
+   {
+    "district": "District 8",
+     "years": "0",
+     "name": "Jamie Raskin",
+     "party": "Democratic",
+     "state": "Maryland"
+  },
+   {
+    "district": "District 9",
+     "years": "18",
+     "name": "Jan Schakowsky",
+     "party": "Democratic",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 2",
+     "years": "4",
+     "name": "Jared Huffman",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 2",
+     "years": "8",
+     "name": "Jared Polis",
+     "party": "Democratic",
+     "state": "Colorado"
+  },
+   {
+    "district": "District 2",
+     "years": "0",
+     "name": "Jason Lewis",
+     "party": "Republican",
+     "state": "Minnesota"
+  },
+   {
+    "district": "District 8",
+     "years": "4",
+     "name": "Jason Smith",
+     "party": "Republican",
+     "state": "Missouri"
+  },
+   {
+    "district": "District 5",
+     "years": "14",
+     "name": "Jeb Hensarling",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 10",
+     "years": "6",
+     "name": "Jeff Denham",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 3",
+     "years": "6",
+     "name": "Jeff Duncan",
+     "party": "Republican",
+     "state": "South Carolina"
+  },
+   {
+    "district": "District 1",
+     "years": "12",
+     "name": "Jeffrey Fortenberry",
+     "party": "Republican",
+     "state": "Nebraska"
+  },
+   {
+    "district": "District 10",
+     "years": "24",
+     "name": "Jerrold Nadler",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 9",
+     "years": "10",
+     "name": "Jerry McNerney",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 3",
+     "years": "0",
+     "name": "Jim Banks",
+     "party": "Republican",
+     "state": "Indiana"
+  },
+   {
+    "district": "District 1",
+     "years": "4",
+     "name": "Jim Bridenstine",
+     "party": "Republican",
+     "state": "Oklahoma"
+  },
+   {
+    "district": "District 5",
+     "years": "14",
+     "name": "Jim Cooper",
+     "party": "Democratic",
+     "state": "Tennessee"
+  },
+   {
+    "district": "District 16",
+     "years": "12",
+     "name": "Jim Costa",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 4",
+     "years": "8",
+     "name": "Jim Himes",
+     "party": "Democratic",
+     "state": "Connecticut"
+  },
+   {
+    "district": "District 4",
+     "years": "10",
+     "name": "Jim Jordan",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 2",
+     "years": "16",
+     "name": "Jim Langevin",
+     "party": "Democratic",
+     "state": "Rhode Island"
+  },
+   {
+    "district": "District 2",
+     "years": "28",
+     "name": "Jim McGovern",
+     "party": "Democratic",
+     "state": "Massachusetts"
+  },
+   {
+    "district": "District 16",
+     "years": "6",
+     "name": "James B. Renacci",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 5",
+     "years": "38",
+     "name": "Jim Sensenbrenner",
+     "party": "Republican",
+     "state": "Wisconsin"
+  },
+   {
+    "district": "District 34",
+     "years": "0",
+     "name": "Jimmy Gomez",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 20",
+     "years": "0",
+     "name": "Jimmy Panetta",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 20",
+     "years": "4",
+     "name": "Joaquin Castro",
+     "party": "Democratic",
+     "state": "Texas"
+  },
+   {
+    "district": "District 19",
+     "years": "0",
+     "name": "Jodey Arrington",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 10",
+     "years": "2",
+     "name": "Jody Hice",
+     "party": "Republican",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 6",
+     "years": "32",
+     "name": "Joe Barton",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 2",
+     "years": "10",
+     "name": "Joe Courtney",
+     "party": "Democratic",
+     "state": "Connecticut"
+  },
+   {
+    "district": "District 2",
+     "years": "16",
+     "name": "Joe Wilson",
+     "party": "Republican",
+     "state": "South Carolina"
+  },
+   {
+    "district": "District 31",
+     "years": "14",
+     "name": "John Carter",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 7",
+     "years": "16",
+     "name": "John Culberson",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 3",
+     "years": "0",
+     "name": "John Curtis",
+     "party": "Republican",
+     "state": "Utah"
+  },
+   {
+    "district": "District 6",
+     "years": "4",
+     "name": "John Delaney",
+     "party": "Democratic",
+     "state": "Maryland"
+  },
+   {
+    "district": "District 2",
+     "years": "28",
+     "name": "John J. Duncan Jr.",
+     "party": "Republican",
+     "state": "Tennessee"
+  },
+   {
+    "district": "District 19",
+     "years": "0",
+     "name": "John Faso",
+     "party": "Republican",
+     "state": "New York"
+  },
+   {
+    "district": "District 3",
+     "years": "8",
+     "name": "John Garamendi",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 24",
+     "years": "2",
+     "name": "John Katko",
+     "party": "Republican",
+     "state": "New York"
+  },
+   {
+    "district": "District 1",
+     "years": "18",
+     "name": "John Larson",
+     "party": "Democratic",
+     "state": "Connecticut"
+  },
+   {
+    "district": "District 5",
+     "years": "30",
+     "name": "John Lewis",
+     "party": "Democratic",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 4",
+     "years": "2",
+     "name": "John Moolenaar",
+     "party": "Republican",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 4",
+     "years": "2",
+     "name": "John Ratcliffe",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 4",
+     "years": "0",
+     "name": "John Rutherford",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 3",
+     "years": "10",
+     "name": "John Sarbanes",
+     "party": "Democratic",
+     "state": "Maryland"
+  },
+   {
+    "district": "District 15",
+     "years": "20",
+     "name": "John Shimkus",
+     "party": "Republican",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 3",
+     "years": "10",
+     "name": "John A. Yarmuth",
+     "party": "Democratic",
+     "state": "Kentucky"
+  },
+   {
+    "district": "District 15",
+     "years": "26",
+     "name": "Josu00e9 E. Serrano",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 14",
+     "years": "18",
+     "name": "Joseph Crowley",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 4",
+     "years": "4",
+     "name": "Joseph Kennedy III",
+     "party": "Democratic",
+     "state": "Massachusetts"
+  },
+   {
+    "district": "District 5",
+     "years": "0",
+     "name": "Josh Gottheimer",
+     "party": "Democratic",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 3",
+     "years": "4",
+     "name": "Joyce Beatty",
+     "party": "Democratic",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 51",
+     "years": "4",
+     "name": "Juan Vargas",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 27",
+     "years": "8",
+     "name": "Judy Chu",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 26",
+     "years": "4",
+     "name": "Julia Brownley",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 3",
+     "years": "6",
+     "name": "Justin Amash",
+     "party": "Republican",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 37",
+     "years": "6",
+     "name": "Karen Bass",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 6",
+     "years": "0",
+     "name": "Karen Handel",
+     "party": "Republican",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 5",
+     "years": "4",
+     "name": "Katherine Clark",
+     "party": "Democratic",
+     "state": "Massachusetts"
+  },
+   {
+    "district": "District 4",
+     "years": "2",
+     "name": "Kathleen M. Rice",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 14",
+     "years": "10",
+     "name": "Kathy Castor",
+     "party": "Democratic",
+     "state": "Florida"
+  },
+   {
+    "district": "District 12",
+     "years": "20",
+     "name": "Kay Granger",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 5",
+     "years": "10",
+     "name": "Keith Ellison",
+     "party": "Democratic",
+     "state": "Minnesota"
+  },
+   {
+    "district": "District 12",
+     "years": "4",
+     "name": "Keith Rothfus",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 4",
+     "years": "2",
+     "name": "Ken Buck",
+     "party": "Republican",
+     "state": "Colorado"
+  },
+   {
+    "district": "District 42",
+     "years": "24",
+     "name": "Ken Calvert",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 24",
+     "years": "12",
+     "name": "Kenny Marchant",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 8",
+     "years": "20",
+     "name": "Kevin Brady",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "At-Large District",
+     "years": "4",
+     "name": "Kevin Cramer",
+     "party": "Republican",
+     "state": "North Dakota"
+  },
+   {
+    "district": "District 23",
+     "years": "10",
+     "name": "Kevin McCarthy",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 3",
+     "years": "6",
+     "name": "Kevin Yoder",
+     "party": "Republican",
+     "state": "Kansas"
+  },
+   {
+    "district": "At-Large District",
+     "years": "6",
+     "name": "Kristi L. Noem",
+     "party": "Republican",
+     "state": "South Dakota"
+  },
+   {
+    "district": "District 5",
+     "years": "8",
+     "name": "Kurt Schrader",
+     "party": "Democratic",
+     "state": "Oregon"
+  },
+   {
+    "district": "District 9",
+     "years": "4",
+     "name": "Kyrsten Sinema",
+     "party": "Democratic",
+     "state": "Arizona"
+  },
+   {
+    "district": "District 21",
+     "years": "30",
+     "name": "Lamar Smith",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 8",
+     "years": "6",
+     "name": "Larry Bucshon",
+     "party": "Republican",
+     "state": "Indiana"
+  },
+   {
+    "district": "District 1",
+     "years": "2",
+     "name": "Lee Zeldin",
+     "party": "Republican",
+     "state": "New York"
+  },
+   {
+    "district": "District 7",
+     "years": "8",
+     "name": "Leonard Lance",
+     "party": "Republican",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 38",
+     "years": "14",
+     "name": "Linda Sanchez",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "At-Large District",
+     "years": "0",
+     "name": "Lisa Blunt Rochester",
+     "party": "Democratic",
+     "state": "Delaware"
+  },
+   {
+    "district": "At-Large District",
+     "years": "0",
+     "name": "Liz Cheney",
+     "party": "Republican",
+     "state": "Wyoming"
+  },
+   {
+    "district": "District 35",
+     "years": "22",
+     "name": "Lloyd Doggett",
+     "party": "Democratic",
+     "state": "Texas"
+  },
+   {
+    "district": "District 16",
+     "years": "0",
+     "name": "Lloyd Smucker",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 21",
+     "years": "4",
+     "name": "Lois Frankel",
+     "party": "Democratic",
+     "state": "Florida"
+  },
+   {
+    "district": "District 11",
+     "years": "6",
+     "name": "Lou Barletta",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 46",
+     "years": "0",
+     "name": "Lou Correa",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 1",
+     "years": "12",
+     "name": "Louis B. 'Louie' Gohmert Jr.",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 25",
+     "years": "30",
+     "name": "Louise Slaughter",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 40",
+     "years": "24",
+     "name": "Lucille Roybal-Allard",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 4",
+     "years": "24",
+     "name": "Luis V. Gutierrez",
+     "party": "Democratic",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 6",
+     "years": "4",
+     "name": "Luke Messer",
+     "party": "Republican",
+     "state": "Indiana"
+  },
+   {
+    "district": "District 2",
+     "years": "8",
+     "name": "Lynn Jenkins",
+     "party": "Republican",
+     "state": "Kansas"
+  },
+   {
+    "district": "District 13",
+     "years": "22",
+     "name": "Mac Thornberry",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 33",
+     "years": "4",
+     "name": "Marc Veasey",
+     "party": "Democratic",
+     "state": "Texas"
+  },
+   {
+    "district": "District 11",
+     "years": "8",
+     "name": "Marcia L. Fudge",
+     "party": "Democratic",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 9",
+     "years": "34",
+     "name": "Marcy Kaptur",
+     "party": "Democratic",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 25",
+     "years": "6",
+     "name": "Mario Diaz-Balart",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 2",
+     "years": "6",
+     "name": "Mark Amodei",
+     "party": "Republican",
+     "state": "Nevada"
+  },
+   {
+    "district": "District 11",
+     "years": "2",
+     "name": "Mark DeSaulnier",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 11",
+     "years": "4",
+     "name": "Mark Meadows",
+     "party": "Republican",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 2",
+     "years": "4",
+     "name": "Mark Pocan",
+     "party": "Democratic",
+     "state": "Wisconsin"
+  },
+   {
+    "district": "District 1",
+     "years": "4",
+     "name": "Mark Sanford",
+     "party": "Republican",
+     "state": "South Carolina"
+  },
+   {
+    "district": "District 41",
+     "years": "4",
+     "name": "Mark Takano",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 6",
+     "years": "2",
+     "name": "Mark Walker",
+     "party": "Republican",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 2",
+     "years": "4",
+     "name": "Markwayne Mullin",
+     "party": "Republican",
+     "state": "Oklahoma"
+  },
+   {
+    "district": "District 7",
+     "years": "14",
+     "name": "Marsha Blackburn",
+     "party": "Republican",
+     "state": "Tennessee"
+  },
+   {
+    "district": "District 2",
+     "years": "2",
+     "name": "Martha McSally",
+     "party": "Republican",
+     "state": "Arizona"
+  },
+   {
+    "district": "District 2",
+     "years": "6",
+     "name": "Martha Roby",
+     "party": "Republican",
+     "state": "Alabama"
+  },
+   {
+    "district": "District 17",
+     "years": "4",
+     "name": "Matt Cartwright",
+     "party": "Democratic",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 1",
+     "years": "0",
+     "name": "Matt Gaetz",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 43",
+     "years": "26",
+     "name": "Maxine Waters",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 4",
+     "years": "2",
+     "name": "Mia Love",
+     "party": "Republican",
+     "state": "Utah"
+  },
+   {
+    "district": "District 8",
+     "years": "2",
+     "name": "Mike Bishop",
+     "party": "Republican",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 26",
+     "years": "14",
+     "name": "Michael C. Burgess",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 7",
+     "years": "18",
+     "name": "Michael Capuano",
+     "party": "Democratic",
+     "state": "Massachusetts"
+  },
+   {
+    "district": "District 14",
+     "years": "22",
+     "name": "Michael F. Doyle",
+     "party": "Democratic",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 8",
+     "years": "0",
+     "name": "Mike Gallagher",
+     "party": "Republican",
+     "state": "Wisconsin"
+  },
+   {
+    "district": "District 10",
+     "years": "12",
+     "name": "Michael McCaul",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 2",
+     "years": "18",
+     "name": "Michael K. Simpson",
+     "party": "Republican",
+     "state": "Idaho"
+  },
+   {
+    "district": "District 10",
+     "years": "14",
+     "name": "Michael R. Turner",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 1",
+     "years": "4",
+     "name": "Michelle Lujan Grisham",
+     "party": "Democratic",
+     "state": "New Mexico"
+  },
+   {
+    "district": "District 12",
+     "years": "2",
+     "name": "Mike Bost",
+     "party": "Republican",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 6",
+     "years": "8",
+     "name": "Mike Coffman",
+     "party": "Republican",
+     "state": "Colorado"
+  },
+   {
+    "district": "District 11",
+     "years": "12",
+     "name": "Mike Conaway",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 4",
+     "years": "0",
+     "name": "Mike Johnson",
+     "party": "Republican",
+     "state": "Louisiana"
+  },
+   {
+    "district": "District 3",
+     "years": "6",
+     "name": "Mike Kelly",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 5",
+     "years": "8",
+     "name": "Mike Quigley",
+     "party": "Democratic",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 3",
+     "years": "14",
+     "name": "Mike Rogers",
+     "party": "Republican",
+     "state": "Alabama"
+  },
+   {
+    "district": "District 5",
+     "years": "18",
+     "name": "Mike Thompson",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 45",
+     "years": "2",
+     "name": "Mimi Walters",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 5",
+     "years": "6",
+     "name": "Mo Brooks",
+     "party": "Republican",
+     "state": "Alabama"
+  },
+   {
+    "district": "District 9",
+     "years": "6",
+     "name": "Morgan Griffith",
+     "party": "Republican",
+     "state": "Virginia"
+  },
+   {
+    "district": "District 12",
+     "years": "30",
+     "name": "Nancy Pelosi",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 44",
+     "years": "0",
+     "name": "Nanette Barragan",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 2",
+     "years": "0",
+     "name": "Neal Dunn",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 3",
+     "years": "10",
+     "name": "Niki Tsongas",
+     "party": "Democratic",
+     "state": "Massachusetts"
+  },
+   {
+    "district": "District 17",
+     "years": "28",
+     "name": "Nita Lowey",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 35",
+     "years": "2",
+     "name": "Norma Torres",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 7",
+     "years": "24",
+     "name": "Nydia Velazquez",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 10",
+     "years": "12",
+     "name": "Patrick T. McHenry",
+     "party": "Republican",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 7",
+     "years": "6",
+     "name": "Patrick Meehan",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 12",
+     "years": "17",
+     "name": "Patrick J. Tiberi",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 8",
+     "years": "4",
+     "name": "Paul Cook",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 4",
+     "years": "6",
+     "name": "Paul Gosar",
+     "party": "Republican",
+     "state": "Arizona"
+  },
+   {
+    "district": "District 10",
+     "years": "0",
+     "name": "Paul Mitchell",
+     "party": "Republican",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 1",
+     "years": "18",
+     "name": "Paul Ryan",
+     "party": "Republican",
+     "state": "Wisconsin"
+  },
+   {
+    "district": "District 20",
+     "years": "8",
+     "name": "Paul Tonko",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 31",
+     "years": "2",
+     "name": "Pete Aguilar",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 22",
+     "years": "8",
+     "name": "Pete Olson",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 32",
+     "years": "14",
+     "name": "Pete Sessions",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 4",
+     "years": "30",
+     "name": "Peter DeFazio",
+     "party": "Democratic",
+     "state": "Oregon"
+  },
+   {
+    "district": "District 2",
+     "years": "24",
+     "name": "Peter T. King",
+     "party": "Republican",
+     "state": "New York"
+  },
+   {
+    "district": "District 6",
+     "years": "10",
+     "name": "Peter J. Roskam",
+     "party": "Republican",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 1",
+     "years": "32",
+     "name": "Peter J. Visclosky",
+     "party": "Democratic",
+     "state": "Indiana"
+  },
+   {
+    "district": "At-Large District",
+     "years": "10",
+     "name": "Peter Welch",
+     "party": "Democratic",
+     "state": "Vermont"
+  },
+   {
+    "district": "District 1",
+     "years": "8",
+     "name": "Phil Roe",
+     "party": "Republican",
+     "state": "Tennessee"
+  },
+   {
+    "district": "District 7",
+     "years": "0",
+     "name": "Pramila Jayapal",
+     "party": "Democratic",
+     "state": "Washington"
+  },
+   {
+    "district": "District 8",
+     "years": "0",
+     "name": "Raja Krishnamoorthi",
+     "party": "Democratic",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 5",
+     "years": "2",
+     "name": "Ralph Abraham",
+     "party": "Republican",
+     "state": "Louisiana"
+  },
+   {
+    "district": "District 5",
+     "years": "0",
+     "name": "Ralph W. Norman",
+     "party": "Republican",
+     "state": "South Carolina"
+  },
+   {
+    "district": "District 14",
+     "years": "6",
+     "name": "Randy Hultgren",
+     "party": "Republican",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 14",
+     "years": "4",
+     "name": "Randy Weber",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 3",
+     "years": "14",
+     "name": "Raul Grijalva",
+     "party": "Democratic",
+     "state": "Arizona"
+  },
+   {
+    "district": "District 1",
+     "years": "6",
+     "name": "Raul R. Labrador",
+     "party": "Republican",
+     "state": "Idaho"
+  },
+   {
+    "district": "District 36",
+     "years": "4",
+     "name": "Raul Ruiz",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 8",
+     "years": "4",
+     "name": "Richard Hudson",
+     "party": "Republican",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 1",
+     "years": "28",
+     "name": "Richard Neal",
+     "party": "Democratic",
+     "state": "Massachusetts"
+  },
+   {
+    "district": "District 12",
+     "years": "2",
+     "name": "Rick Allen",
+     "party": "Republican",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 1",
+     "years": "6",
+     "name": "Rick Crawford",
+     "party": "Republican",
+     "state": "Arkansas"
+  },
+   {
+    "district": "District 2",
+     "years": "16",
+     "name": "Rick Larsen",
+     "party": "Democratic",
+     "state": "Washington"
+  },
+   {
+    "district": "District 8",
+     "years": "4",
+     "name": "Rick Nolan",
+     "party": "Democratic",
+     "state": "Minnesota"
+  },
+   {
+    "district": "District 17",
+     "years": "0",
+     "name": "Ro Khanna",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 1",
+     "years": "14",
+     "name": "Rob Bishop",
+     "party": "Republican",
+     "state": "Utah"
+  },
+   {
+    "district": "District 1",
+     "years": "10",
+     "name": "Rob Wittman",
+     "party": "Republican",
+     "state": "Virginia"
+  },
+   {
+    "district": "District 7",
+     "years": "6",
+     "name": "Rob Woodall",
+     "party": "Republican",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 4",
+     "years": "20",
+     "name": "Robert Aderholt",
+     "party": "Republican",
+     "state": "Alabama"
+  },
+   {
+    "district": "District 1",
+     "years": "19",
+     "name": "Robert Brady",
+     "party": "Democratic",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 9",
+     "years": "4",
+     "name": "Robert Pittenger",
+     "party": "Republican",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 2",
+     "years": "4",
+     "name": "Robin Kelly",
+     "party": "Democratic",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 1",
+     "years": "2",
+     "name": "Rod Blum",
+     "party": "Republican",
+     "state": "Iowa"
+  },
+   {
+    "district": "District 13",
+     "years": "4",
+     "name": "Rodney Davis",
+     "party": "Republican",
+     "state": "Illinois"
+  },
+   {
+    "district": "District 11",
+     "years": "22",
+     "name": "Rodney Frelinghuysen",
+     "party": "Republican",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 1",
+     "years": "0",
+     "name": "Roger Marshall",
+     "party": "Republican",
+     "state": "Kansas"
+  },
+   {
+    "district": "District 25",
+     "years": "4",
+     "name": "Roger Williams",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 6",
+     "years": "4",
+     "name": "Ron DeSantis",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 4",
+     "years": "0",
+     "name": "Ron Estes",
+     "party": "Republican",
+     "state": "Kansas"
+  },
+   {
+    "district": "District 3",
+     "years": "20",
+     "name": "Ron Kind",
+     "party": "Democratic",
+     "state": "Wisconsin"
+  },
+   {
+    "district": "District 3",
+     "years": "26",
+     "name": "Rosa L. DeLauro",
+     "party": "Democratic",
+     "state": "Connecticut"
+  },
+   {
+    "district": "District 7",
+     "years": "2",
+     "name": "Ruben Gallego",
+     "party": "Democratic",
+     "state": "Arizona"
+  },
+   {
+    "district": "District 4",
+     "years": "0",
+     "name": "Ruben J. Kihuen",
+     "party": "Democratic",
+     "state": "Nevada"
+  },
+   {
+    "district": "District 6",
+     "years": "2",
+     "name": "Ryan Costello",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 24",
+     "years": "0",
+     "name": "Salud Carbajal",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 6",
+     "years": "16",
+     "name": "Sam Graves",
+     "party": "Republican",
+     "state": "Missouri"
+  },
+   {
+    "district": "District 3",
+     "years": "26",
+     "name": "Sam Johnson",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 9",
+     "years": "34",
+     "name": "Sandy Levin",
+     "party": "Democratic",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 2",
+     "years": "24",
+     "name": "Sanford Bishop Jr",
+     "party": "Democratic",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 4",
+     "years": "6",
+     "name": "Scott DesJarlais",
+     "party": "Republican",
+     "state": "Tennessee"
+  },
+   {
+    "district": "District 4",
+     "years": "4",
+     "name": "Scott Perry",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 52",
+     "years": "4",
+     "name": "Scott Peters",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 2",
+     "years": "0",
+     "name": "Scott Taylor",
+     "party": "Republican",
+     "state": "Virginia"
+  },
+   {
+    "district": "District 3",
+     "years": "6",
+     "name": "Scott Tipton",
+     "party": "Republican",
+     "state": "Colorado"
+  },
+   {
+    "district": "District 7",
+     "years": "6",
+     "name": "Sean Duffy",
+     "party": "Republican",
+     "state": "Wisconsin"
+  },
+   {
+    "district": "District 18",
+     "years": "4",
+     "name": "Sean Maloney",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 6",
+     "years": "2",
+     "name": "Seth Moulton",
+     "party": "Democratic",
+     "state": "Massachusetts"
+  },
+   {
+    "district": "District 18",
+     "years": "22",
+     "name": "Sheila Jackson Lee",
+     "party": "Democratic",
+     "state": "Texas"
+  },
+   {
+    "district": "District 5",
+     "years": "36",
+     "name": "Steny Hoyer",
+     "party": "Democratic",
+     "state": "Maryland"
+  },
+   {
+    "district": "District 7",
+     "years": "0",
+     "name": "Stephanie Murphy",
+     "party": "Democratic",
+     "state": "Florida"
+  },
+   {
+    "district": "District 25",
+     "years": "2",
+     "name": "Stephen Knight",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 8",
+     "years": "16",
+     "name": "Stephen Lynch",
+     "party": "Democratic",
+     "state": "Massachusetts"
+  },
+   {
+    "district": "District 1",
+     "years": "6",
+     "name": "Steve Chabot",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 9",
+     "years": "10",
+     "name": "Steve Cohen",
+     "party": "Democratic",
+     "state": "Tennessee"
+  },
+   {
+    "district": "District 4",
+     "years": "14",
+     "name": "Steve King",
+     "party": "Republican",
+     "state": "Iowa"
+  },
+   {
+    "district": "District 2",
+     "years": "6",
+     "name": "Steve Pearce",
+     "party": "Republican",
+     "state": "New Mexico"
+  },
+   {
+    "district": "District 5",
+     "years": "2",
+     "name": "Steve Russell",
+     "party": "Republican",
+     "state": "Oklahoma"
+  },
+   {
+    "district": "District 1",
+     "years": "9",
+     "name": "Steve Scalise",
+     "party": "Republican",
+     "state": "Louisiana"
+  },
+   {
+    "district": "District 15",
+     "years": "6",
+     "name": "Steve Stivers",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 3",
+     "years": "6",
+     "name": "Steve Womack",
+     "party": "Republican",
+     "state": "Arkansas"
+  },
+   {
+    "district": "District 4",
+     "years": "6",
+     "name": "Steven Palazzo",
+     "party": "Republican",
+     "state": "Mississippi"
+  },
+   {
+    "district": "District 5",
+     "years": "4",
+     "name": "Susan Brooks",
+     "party": "Republican",
+     "state": "Indiana"
+  },
+   {
+    "district": "District 53",
+     "years": "16",
+     "name": "Susan Davis",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 1",
+     "years": "5",
+     "name": "Suzan DelBene",
+     "party": "Democratic",
+     "state": "Washington"
+  },
+   {
+    "district": "District 1",
+     "years": "5",
+     "name": "Suzanne Bonamici",
+     "party": "Democratic",
+     "state": "Oregon"
+  },
+   {
+    "district": "District 13",
+     "years": "0",
+     "name": "Ted Budd",
+     "party": "Republican",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 22",
+     "years": "7",
+     "name": "Theodore E. Deutch",
+     "party": "Democratic",
+     "state": "Florida"
+  },
+   {
+    "district": "District 33",
+     "years": "2",
+     "name": "Ted Lieu",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 2",
+     "years": "12",
+     "name": "Ted Poe",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 3",
+     "years": "4",
+     "name": "Ted Yoho",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 7",
+     "years": "6",
+     "name": "Terri Sewell",
+     "party": "Democratic",
+     "state": "Alabama"
+  },
+   {
+    "district": "District 5",
+     "years": "0",
+     "name": "Thomas Garrett",
+     "party": "Republican",
+     "state": "Virginia"
+  },
+   {
+    "district": "District 4",
+     "years": "4",
+     "name": "Thomas Massie",
+     "party": "Republican",
+     "state": "Kentucky"
+  },
+   {
+    "district": "District 17",
+     "years": "8",
+     "name": "Thomas J. Rooney",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 13",
+     "years": "14",
+     "name": "Tim Ryan",
+     "party": "Democratic",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 7",
+     "years": "6",
+     "name": "Tim Walberg",
+     "party": "Republican",
+     "state": "Michigan"
+  },
+   {
+    "district": "District 1",
+     "years": "10",
+     "name": "Tim Walz",
+     "party": "Democratic",
+     "state": "Minnesota"
+  },
+   {
+    "district": "District 4",
+     "years": "6",
+     "name": "Todd Rokita",
+     "party": "Republican",
+     "state": "Indiana"
+  },
+   {
+    "district": "District 4",
+     "years": "14",
+     "name": "Tom Cole",
+     "party": "Republican",
+     "state": "Oklahoma"
+  },
+   {
+    "district": "District 6",
+     "years": "2",
+     "name": "Tom Emmer",
+     "party": "Republican",
+     "state": "Minnesota"
+  },
+   {
+    "district": "District 14",
+     "years": "7",
+     "name": "Tom Graves",
+     "party": "Republican",
+     "state": "Georgia"
+  },
+   {
+    "district": "District 3",
+     "years": "2",
+     "name": "Tom MacArthur",
+     "party": "Republican",
+     "state": "New Jersey"
+  },
+   {
+    "district": "District 10",
+     "years": "6",
+     "name": "Tom Marino",
+     "party": "Republican",
+     "state": "Pennsylvania"
+  },
+   {
+    "district": "District 4",
+     "years": "8",
+     "name": "Tom McClintock",
+     "party": "Republican",
+     "state": "California"
+  },
+   {
+    "district": "District 1",
+     "years": "0",
+     "name": "Tom O'Halleran",
+     "party": "Democratic",
+     "state": "Arizona"
+  },
+   {
+    "district": "District 23",
+     "years": "7",
+     "name": "Tom Reed",
+     "party": "Republican",
+     "state": "New York"
+  },
+   {
+    "district": "District 7",
+     "years": "4",
+     "name": "Tom Rice",
+     "party": "Republican",
+     "state": "South Carolina"
+  },
+   {
+    "district": "District 3",
+     "years": "0",
+     "name": "Tom Suozzi",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 29",
+     "years": "4",
+     "name": "Tony Cardenas",
+     "party": "Democratic",
+     "state": "California"
+  },
+   {
+    "district": "District 8",
+     "years": "14",
+     "name": "Trent Franks",
+     "party": "Republican",
+     "state": "Arizona"
+  },
+   {
+    "district": "District 1",
+     "years": "2",
+     "name": "Trent Kelly",
+     "party": "Republican",
+     "state": "Mississippi"
+  },
+   {
+    "district": "District 4",
+     "years": "6",
+     "name": "Trey Gowdy",
+     "party": "Republican",
+     "state": "South Carolina"
+  },
+   {
+    "district": "District 9",
+     "years": "0",
+     "name": "Trey Hollingsworth",
+     "party": "Republican",
+     "state": "Indiana"
+  },
+   {
+    "district": "District 2",
+     "years": "4",
+     "name": "Tulsi Gabbard",
+     "party": "Democratic",
+     "state": "Hawaii"
+  },
+   {
+    "district": "District 10",
+     "years": "0",
+     "name": "Val Demings",
+     "party": "Democratic",
+     "state": "Florida"
+  },
+   {
+    "district": "District 16",
+     "years": "10",
+     "name": "Vern Buchanan",
+     "party": "Republican",
+     "state": "Florida"
+  },
+   {
+    "district": "District 15",
+     "years": "0",
+     "name": "Vicente Gonzu00e1lez",
+     "party": "Democratic",
+     "state": "Texas"
+  },
+   {
+    "district": "District 4",
+     "years": "6",
+     "name": "Vicky Hartzler",
+     "party": "Republican",
+     "state": "Missouri"
+  },
+   {
+    "district": "District 5",
+     "years": "12",
+     "name": "Virginia Foxx",
+     "party": "Republican",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 3",
+     "years": "22",
+     "name": "Walter B. Jones",
+     "party": "Republican",
+     "state": "North Carolina"
+  },
+   {
+    "district": "District 8",
+     "years": "1",
+     "name": "Warren Davidson",
+     "party": "Republican",
+     "state": "Ohio"
+  },
+   {
+    "district": "District 23",
+     "years": "2",
+     "name": "Will Hurd",
+     "party": "Republican",
+     "state": "Texas"
+  },
+   {
+    "district": "District 1",
+     "years": "16",
+     "name": "William Lacy Clay",
+     "party": "Democratic",
+     "state": "Missouri"
+  },
+   {
+    "district": "District 9",
+     "years": "10",
+     "name": "Yvette D. Clarke",
+     "party": "Democratic",
+     "state": "New York"
+  },
+   {
+    "district": "District 19",
+     "years": "22",
+     "name": "Zoe Lofgren",
+     "party": "Democratic",
+     "state": "California"
+  }]
