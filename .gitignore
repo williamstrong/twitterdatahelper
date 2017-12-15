@@ -9,6 +9,8 @@ __pycache__
 # Images
 /social_networks/analysis/graphs/*
 
+# alex graphing
+/social_networks/analysis/alex_graphing.py
 
 .idea/
 scripts/

@@ -20,6 +20,9 @@ class MakeGraph:
         self.add_vertex_property('vector<double>', 'color')
         self.add_vertex_prop_val('color')
         self.cursor.rewind()
+        self.add_vertex_property('int32_t', 'cluster')
+        self.add_vertex_prop_val('cluster')
+        self.cursor.rewind()
         self.add_vertex_property('string', 'district')
         self.add_vertex_prop_val('district')
         self.cursor.rewind()
@@ -44,6 +47,11 @@ class MakeGraph:
                     self.g.vertex_properties[prop_value][v] = (1, 0, 0, 1)
                 else:
                     self.g.vertex_properties[prop_value][v] = (0, 0, 1, 1)
+            elif prop_value == 'cluster':
+                if self.cursor[self.g.vertex_index[v]]['party'] == 'Republican':
+                    self.g.vertex_properties[prop_value][v] = 1
+                else:
+                    self.g.vertex_properties[prop_value][v] = 0
             else:
                 self.g.vertex_properties[prop_value][v] = self.cursor[self.g.vertex_index[v]][prop_value]
             # print(self.g.vertex_properties['name'][v])

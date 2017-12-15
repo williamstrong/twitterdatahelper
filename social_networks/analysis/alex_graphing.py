@@ -35,35 +35,53 @@ def homophily (g, prop):
     # If counter/total_edges less than average, homophily is exhibited
     print("Homophily Info: Average({}) | Actual({})".format(avg, count/len(g.get_edges())))
 
+#make the graph
 maker = MakeGraph()
 g = maker.g
-# attempt at weighting the graph
-# pos = sfdp_layout(g)
+
+#print graph information
+print("In degree: {0} | Out degree: {1} | Total degree: {2}".format(vertex_average(g, deg="in")[0], vertex_average(g, deg="out")[0], vertex_average(g, deg="total")[0]))
+homophily(g, g.vp.years)
+print("num vertices:{}".format(g.num_vertices()))
+print("global clustering (coefficient,std deviation) {}".format(global_clustering(g)))
+
+#graph formatting
+vprops = {'anchor': 0, 'pen_width': 0.2, 'font_size': 8, 'size': 10}
+eprops = {'pen_width': 0.4, 'color': [255,255,255, 0.5]}
+color = g.vp.color
+
+#draw nested model graph
+state = minimize_nested_blockmodel_dl(g)
+draw_hierarchy(state,
+               bg_color=[0, 0, 0, 1],
+               vertex_fill_color=color,
+               vertex_color=color,
+               output="graphs/nested_model_test.png",
+               size=5)
+
+
+pos = sfdp_layout(g, groups=g.vp.cluster)
+
+#draw clustering graph
+graph_draw(g, pos=pos,
+            vprops=vprops, eprops=eprops,
+            output_size=(500, 500),
+            vertex_fill_color=color,
+            vertex_color=color,
+            bg_color=[0, 0, 0, 1],
+            output="graphs/clustering_test.png")
+
+
+#minimum spanning tree settings
+tree_map = min_spanning_tree(g)
+u = GraphView(g, efilt=tree_map)
 pos = arf_layout(g)
 
-tree_map = min_spanning_tree(g)
-#print(tree_map)
-vert_list = find_edge(g, tree_map, 1)
-#print(vert_list)
-
-
-
-print("In degree: {0} | Out degree: {1} | Total degree: {2}".format(vertex_average(g, deg="in")[0], vertex_average(g, deg="out")[0], vertex_average(g, deg="total")[0]))
-homophily(g, g.vp.party)
-
-vprops = {'anchor': 0, 'pen_width': 0.2, 'font_size': 8}
-eprops = {'pen_width': 0.4}
-color = g.vp.color
-state = minimize_nested_blockmodel_dl(g)
-# draw_hierarchy(state,
-#                bg_color=[0, 0, 0, 1],
-#                vertex_fill_color=color,
-#                vertex_color=color,
-#                output="graphs/nested_model.png",
-#                size=5)
-
-# graph_draw(g, pos=pos,
-#             vprops=vprops, eprops=eprops,
-#             output_size=(1000, 1000),
-#             bg_color=[1.0, 2.0, 3.0, 4.0],
-#             output="graphs/test.png")
+#draw min spanning tree
+graph_draw(u, pos=pos,
+            vprops=vprops, eprops=eprops,
+            output_size=(500, 500),
+            vertex_fill_color=color,
+            vertex_color=color,
+            bg_color=[0, 0, 0, 1],
+            output="graphs/min_spanning_tree_test.png")
