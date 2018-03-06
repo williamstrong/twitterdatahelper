@@ -80,25 +80,25 @@ Homophily is prevalent in all forms of communication and human interaction. Noti
 #### Graph 1:
 This graph shows the nested block model of the graph in a radial layout with node size increasing as the number of edges increases.
   
-![alt text](/images/graph_1)
+![alt text](images/graph_1)
 ________________
 
 #### Graph 2:
 This graph shows the network clustered by party in a force directed layout
   
-![alt text](/images/graph_2)
+![alt text](images/graph_2)
 ________________
 
 #### Graph 3:
 This graph shows the force-directed graph of congressmen clustered on seniority. Green nodes indicate a senior congressman of > 10 years service. Blue nodes indicate a junior congressman of < 10 years service.
   
-![alt text](/images/graph_3)
+![alt text](images/graph_3)
 ________________
 
 #### Graph 4:
 This graph shows the minimum spanning tree of the graph. Nodes are colored according to party.
   
-![alt text](/images/graph_4)
+![alt text](images/graph_4)
 ________________
 
 
