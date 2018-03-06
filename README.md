@@ -116,17 +116,29 @@ Russell, Matthew A. Mining the social web. Sebastopol: OReilly Media, Inc, USA, 
 "Tweet object - Twitter Developers." Twitter. Accessed January 10, 2018. https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object. 
 ________________
 [1] McPherson, Miller, Lynn Smith-Lovin, and James M. Cook. "BIRDS OF A FEATHER: Homophily in Social Networks." Annual Review Of Sociology 27, (August 2001): 415. Business Source Premier, EBSCOhost (accessed January 10, 2018).
+
 [2] Aristotle. "Chapter 8." In Nicomachean Ethics, edited by Terence Irwin. Indianapolis, Indiana: Hackett, 1999.
+
 [3] McPherson, Miller, Smith-Lovin, and Cook. “BIRDS OF A FEATHER”
+
 [4] Lazarsfeld PF, Merton RK. 1954. Friendship as a social process: a substantive and methodological analysis. In Freedom and Control in Modern Society, ed. M Berger, pp. 18–66. New York: Van Nostrand
+
 [5] Halberstam, Yosh and Knight, Brian, (2016), Homophily, group size, and the diffusion of political information in social networks: Evidence from Twitter, Journal of Public Economics, 143, issue C, p. 73-88, http://individual.utoronto.ca/halberstam/homophily_twitter.pdf
+
 [6] "API reference index - Twitter Developers." Twitter. Accessed January 10, 2018. https://developer.twitter.com/en/docs/api-reference-index.
+
 [7] "API reference index - Twitter Developers." Twitter. Accessed January 10, 2018. https://developer.twitter.com/en/docs/api-reference-index.
+
 [8] "Tweet object - Twitter Developers." Twitter. Accessed January 10, 2018. https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object.
+
 [9] "Rate Limiting - Twitter Developers." Twitter. Accessed January 10, 2018. https://developer.twitter.com/en/docs/basics/rate-limiting.
+
 [10] Russell, Matthew A. Mining the social web. Sebastopol: OReilly Media, Inc, USA, 2013.
+
 [11] "Python-twitter documentation." Accessed January 10, 2018. https://python-twitter.readthedocs.io/en/latest/.
+
 [12] Peixoto, Tiago P. "graph-tool 2.26 documentation." Accessed January 10, 2018. https://graph-tool.skewed.de/static/doc/index.html.
+
 [13] "Docker Documentation." Docker Documentation. January 09, 2018. Accessed January 10, 2018. https://docs.docker.com/.
 
 [14] McPherson, Miller, Smith-Lovin, and Cook. “BIRDS OF A FEATHER”
