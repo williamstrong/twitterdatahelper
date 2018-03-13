@@ -1,3 +1,8 @@
+# twitter_api.py is used to collect Tweets of various API queries. 
+# It first checks to see if the Tweets that are being requested exist in the database.
+# If they are already in the database the request simply returns a PyMongo Cursor object pointing to the stored Tweets.
+# If they are not the Tweets will be gathered via TwitterAPI calls and stored in the database; the same PyMongo object
+# will be returned.
 
 import json
 from datetime import datetime
@@ -13,6 +18,11 @@ from social_networks.twitter_controller import __credential_file__ as twitter_cr
 
 
 def search_db(db_name, coll_name):
+    """
+    Helper function which searchs a specific Mongo database for a collection name.
+    
+    Returns true if the collection is found in the database and false otherwise.
+    """
     if coll_name == None:
         raise NoSubClass
     with db_limit_lock:
@@ -25,6 +35,11 @@ def search_db(db_name, coll_name):
     return False
 
 class Tweets:
+    """
+    This is the base class for the RequestAndStore class.
+    
+    It instantiates the twitter.Api class with the credentials from the twitter_cred file.    
+    """
     def __init__(self):
 
         with open(twitter_cred, 'r') as file:
@@ -50,6 +65,11 @@ class Tweets:
 
 
 class TimelineStatuses(ReadFromDatabase):
+    """
+    Search the database for a specific user. If the user already exists in the database
+    it creates a PyMongo Cursor to the data, otherwise it instantiates TimelineStatusesRS
+    with the provided name and then reads the data from the database.
+    """
     def __init__(self, name):
         if not search_db("timeline_tweets", name): TimelineStatusesRS(name)
         super(TimelineStatuses, self).__init__("timeline_tweets", name)
@@ -62,6 +82,9 @@ class TimelineStatuses(ReadFromDatabase):
 db_limit_lock = BoundedSemaphore(100)
 
 class RequestAndStore(Tweets):
+    """
+    Request Tweets from the TwitterAPI and stores them in the database.
+    """
     def __init__(self):
         super().__init__()
         self.collection = None
@@ -105,6 +128,10 @@ class RequestAndStore(Tweets):
 
 
 class TimelineStatusesRS(RequestAndStore):
+    """
+    Requests and stores Tweets from specific users.
+    Use the TimelineStatuses class to avoid dupication of data.
+    """
     def __init__(self, name):
         super().__init__()
         self.name = name
@@ -131,6 +158,11 @@ class TimelineStatusesRS(RequestAndStore):
             trim_user=True)
 
 class Subject:
+    """
+    Search the database for a keyword subject. If the user already exists in the database
+    it creates a PyMongo Cursor to the data, otherwise it instantiates SubjectRSS
+    with the provided name and then reads the data from the database.
+    """
     def __init__(self, subject):
         if not search_db("subjects", subject): SubjectRS(subject)
 
@@ -139,6 +171,10 @@ class Subject:
 
 
 class SubjectRS(RequestAndStore):
+    """
+    Requests and stores Tweets about keyword subjects.
+    Use the Subject class to avoid dupication of data.
+    """
     def __init__(self, subject, date):
         super().__init__()
         self.subject = subject
@@ -162,5 +198,5 @@ class SubjectRS(RequestAndStore):
 
 
 if __name__ == "__main__":
+    # used for testing
     test = TimelineStatuses("willdstrong")
-    # test.request_tweets_from_api()
