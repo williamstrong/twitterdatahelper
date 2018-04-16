@@ -37,7 +37,7 @@ Once we downloaded the tweets of each member of the network, we filtered them fo
         District:
         Party:
         State:
-        Mentions: [username, username, …]
+        Mentions: [<username>, <username>, …]
 }
 ```
 ## Procedure
